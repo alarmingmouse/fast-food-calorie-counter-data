@@ -1581,6 +1581,57 @@
       ]
     },
     {
+      "id": "spicy-mcnuggets-40",
+      "name": "40pc Spicy Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Spicy coated Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "40 pieces",
+      "nutrition": {
+        "kj": 6740,
+        "p": 111.3,
+        "f": 96,
+        "c": 72.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
       "id": "mcwings-3",
       "name": "3pc Chicken McWings",
       "category": "chicken-fish",
@@ -1642,6 +1693,108 @@
         "p": 26.6,
         "f": 29.2,
         "c": 22.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nashville-mcwings-5",
+      "name": "5pc Nashville Shaker McWings",
+      "category": "chicken-fish",
+      "desc": "Chicken McWings with Nashville hot seasoning",
+      "serve": "5 pieces",
+      "nutrition": {
+        "kj": 3280,
+        "p": 44.3,
+        "f": 48.6,
+        "c": 36
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nashville-mcwings-10",
+      "name": "10pc Nashville Shaker McWings",
+      "category": "chicken-fish",
+      "desc": "Chicken McWings with Nashville hot seasoning",
+      "serve": "10 pieces",
+      "nutrition": {
+        "kj": 6500,
+        "p": 88.4,
+        "f": 97.1,
+        "c": 69
       },
       "confidence": "official",
       "comps": [
@@ -4084,6 +4237,62 @@
       "confidence": "official"
     },
     {
+      "id": "espresso",
+      "name": "Espresso",
+      "category": "mccafe-drinks",
+      "desc": "Single shot of espresso",
+      "serve": "Single shot",
+      "nutrition": {
+        "kj": 1,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "macchiato",
+      "name": "Macchiato",
+      "category": "mccafe-drinks",
+      "desc": "Espresso with a dash of steamed milk",
+      "serve": "Single serve, full cream milk",
+      "nutrition": {
+        "kj": 28,
+        "p": 0.4,
+        "f": 0.4,
+        "c": 0.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "piccolo-latte",
+      "name": "Piccolo Latte",
+      "category": "mccafe-drinks",
+      "desc": "Espresso topped with a little steamed milk",
+      "serve": "Single serve, full cream milk",
+      "nutrition": {
+        "kj": 161,
+        "p": 2.1,
+        "f": 2.1,
+        "c": 2.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "babyccino",
+      "name": "Babyccino",
+      "category": "mccafe-drinks",
+      "desc": "Warm frothed milk with chocolate dusting",
+      "serve": "Single serve, full cream milk",
+      "nutrition": {
+        "kj": 230,
+        "p": 2.8,
+        "f": 2.8,
+        "c": 4.6
+      },
+      "confidence": "official"
+    },
+    {
       "id": "mocha",
       "name": "Mocha",
       "category": "mccafe-drinks",
@@ -4126,6 +4335,20 @@
       "confidence": "official"
     },
     {
+      "id": "matcha-latte",
+      "name": "Matcha Latte",
+      "category": "mccafe-drinks",
+      "desc": "Matcha with steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1260,
+        "p": 9.3,
+        "f": 8.2,
+        "c": 46.1
+      },
+      "confidence": "official"
+    },
+    {
       "id": "long-black",
       "name": "Long Black",
       "category": "mccafe-drinks",
@@ -4144,6 +4367,48 @@
       "name": "English Breakfast Tea",
       "category": "mccafe-drinks",
       "desc": "Black tea, no milk",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 19,
+        "p": 0.3,
+        "f": 0.3,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "green-tea",
+      "name": "Green Tea",
+      "category": "mccafe-drinks",
+      "desc": "Green tea, no milk",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 19,
+        "p": 0.3,
+        "f": 0.3,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "earl-grey-tea",
+      "name": "Earl Grey Tea",
+      "category": "mccafe-drinks",
+      "desc": "Black tea with bergamot, no milk",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 19,
+        "p": 0.3,
+        "f": 0.3,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "peppermint-tea",
+      "name": "Peppermint Tea",
+      "category": "mccafe-drinks",
+      "desc": "Peppermint herbal tea",
       "serve": "Medium",
       "nutrition": {
         "kj": 19,
@@ -4178,6 +4443,104 @@
         "p": 10.3,
         "f": 15.4,
         "c": 41.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-long-black",
+      "name": "Iced Long Black",
+      "category": "mccafe-drinks",
+      "desc": "Espresso over water and ice",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-mocha",
+      "name": "Iced Mocha",
+      "category": "mccafe-drinks",
+      "desc": "Espresso, chocolate and cold milk over ice",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1420,
+        "p": 9.3,
+        "f": 9.3,
+        "c": 53.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-matcha-latte",
+      "name": "Iced Matcha Latte",
+      "category": "mccafe-drinks",
+      "desc": "Matcha and cold milk over ice",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1270,
+        "p": 9.4,
+        "f": 8.4,
+        "c": 46.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-strawberry-matcha-latte",
+      "name": "Iced Strawberry Matcha Latte",
+      "category": "mccafe-drinks",
+      "desc": "Matcha and cold milk over ice with strawberry",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1470,
+        "p": 8.2,
+        "f": 7,
+        "c": 61.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "deluxe-caramel-iced-coffee",
+      "name": "Deluxe Caramel Flavoured Iced Coffee",
+      "category": "mccafe-drinks",
+      "desc": "Iced coffee with caramel flavour and cream",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1260,
+        "p": 8.5,
+        "f": 13.8,
+        "c": 35.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "deluxe-hazelnut-iced-coffee",
+      "name": "Deluxe Hazelnut Flavoured Iced Coffee",
+      "category": "mccafe-drinks",
+      "desc": "Iced coffee with hazelnut flavour and cream",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1260,
+        "p": 8.5,
+        "f": 13.8,
+        "c": 35.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "deluxe-vanilla-iced-coffee",
+      "name": "Deluxe Vanilla Flavoured Iced Coffee",
+      "category": "mccafe-drinks",
+      "desc": "Iced coffee with vanilla flavour and cream",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1260,
+        "p": 8.5,
+        "f": 13.8,
+        "c": 35.3
       },
       "confidence": "official"
     },
@@ -4294,6 +4657,20 @@
       "confidence": "official"
     },
     {
+      "id": "salted-caramel-frappe",
+      "name": "Salted Caramel Frappé",
+      "category": "shakes-frappes",
+      "desc": "Blended salted caramel frappé",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2100,
+        "p": 10.9,
+        "f": 26.6,
+        "c": 54.5
+      },
+      "confidence": "official"
+    },
+    {
       "id": "coca-cola",
       "name": "Coca-Cola",
       "category": "cold-drinks",
@@ -4318,6 +4695,20 @@
         "p": 0,
         "f": 0,
         "c": 0.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coca-cola-vanilla",
+      "name": "Coca-Cola Vanilla",
+      "category": "cold-drinks",
+      "desc": "Vanilla flavoured soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 601,
+        "p": 0,
+        "f": 0,
+        "c": 35.2
       },
       "confidence": "official"
     },
@@ -4350,6 +4741,20 @@
       "confidence": "official"
     },
     {
+      "id": "fanta-raspberry",
+      "name": "Fanta Raspberry",
+      "category": "cold-drinks",
+      "desc": "Raspberry soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 439,
+        "p": 0,
+        "f": 0,
+        "c": 25.2
+      },
+      "confidence": "official"
+    },
+    {
       "id": "frozen-coke",
       "name": "Frozen Coke",
       "category": "cold-drinks",
@@ -4364,10 +4769,80 @@
       "confidence": "official"
     },
     {
+      "id": "frozen-coke-zero",
+      "name": "Frozen Coke Zero Sugar",
+      "category": "cold-drinks",
+      "desc": "Sugar free frozen Coca-Cola slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 4,
+        "p": 0.2,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
       "id": "frozen-fanta-raspberry",
       "name": "Frozen Fanta Raspberry",
       "category": "cold-drinks",
       "desc": "Frozen raspberry slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 366,
+        "p": 0,
+        "f": 0,
+        "c": 21.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-fanta-orange",
+      "name": "Frozen Fanta Orange",
+      "category": "cold-drinks",
+      "desc": "Frozen orange slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 365,
+        "p": 0,
+        "f": 0,
+        "c": 21.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-fanta-lemon",
+      "name": "Frozen Fanta Lemon",
+      "category": "cold-drinks",
+      "desc": "Frozen lemon slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 365,
+        "p": 0,
+        "f": 0,
+        "c": 21.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-fanta-blueberry",
+      "name": "Frozen Fanta Blueberry",
+      "category": "cold-drinks",
+      "desc": "Frozen blueberry slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 365,
+        "p": 0,
+        "f": 0,
+        "c": 21.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-fanta-mango",
+      "name": "Frozen Fanta Mango",
+      "category": "cold-drinks",
+      "desc": "Frozen mango slushie",
       "serve": "Medium",
       "nutrition": {
         "kj": 366,
@@ -4390,6 +4865,20 @@
         "c": 28.5
       },
       "confidence": "estimate"
+    },
+    {
+      "id": "orange-apple-juice",
+      "name": "Orange & Apple Juice",
+      "category": "cold-drinks",
+      "desc": "Orange and apple juice blend",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 737,
+        "p": 0,
+        "f": 0,
+        "c": 42.2
+      },
+      "confidence": "official"
     },
     {
       "id": "lemon-flavour-drink",
@@ -4458,6 +4947,34 @@
         "p": 0,
         "f": 0,
         "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling Water",
+      "category": "cold-drinks",
+      "desc": "Sparkling mineral water",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "lemon-lime-bitters",
+      "name": "Kirks Lemon, Lime & Bitters",
+      "category": "cold-drinks",
+      "desc": "Lemon lime and bitters soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 442,
+        "p": 0,
+        "f": 0,
+        "c": 24.8
       },
       "confidence": "official"
     },
