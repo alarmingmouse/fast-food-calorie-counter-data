@@ -1,0 +1,4563 @@
+{
+  "id": "mc",
+  "name": "McDonald's",
+  "nick": "Macca's",
+  "mono": "M",
+  "colors": {
+    "brand": "#DA291C",
+    "onBrand": "#FFFFFF",
+    "badge": "#DA291C",
+    "badgeFg": "#FFC72C"
+  },
+  "sources": [
+    {
+      "url": "https://www.mcdonalds.com/au/en-au/menu.html",
+      "kind": "web",
+      "title": "Product pages, one per item, read in a normal browser (current official per serve figures)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.mcdonalds.com/au/en-au/sitemap.xml",
+      "kind": "web",
+      "title": "Lists all 376 product page URLs",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.mcdonalds.com/au/en-au/about-us/our-impact/food-sourcing/nutrition.html",
+      "kind": "web",
+      "title": "Nutrition PDF index (McCafe and desserts only; no core menu PDF)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.mcdonalds.com/content/dam/sites/au/nfl/nutrition/PDFs/AUS%20New%20McCafe%20Beverages%20and%20Dessert%20-%20October%202026%20Launch.pdf",
+      "kind": "pdf",
+      "title": "New McCafe beverages and desserts, October 2026 (copy in data/sources/mc/)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.mcdonalds.com/content/dam/sites/au/nfl/nutrition/PDFs/Aus%20LTO%20Menu_Flash%20LAUNCH%202026.pdf",
+      "kind": "pdf",
+      "title": "Limited time McCafe beverages",
+      "checked": "2026-10-31"
+    }
+  ],
+  "lastChecked": "2026-10-31",
+  "categories": [
+    {
+      "id": "beef-burgers",
+      "name": "Beef Burgers"
+    },
+    {
+      "id": "chicken-fish",
+      "name": "Chicken & Fish"
+    },
+    {
+      "id": "wraps",
+      "name": "Wraps"
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "sides",
+      "name": "Snacks & Sides"
+    },
+    {
+      "id": "mccafe-bakery",
+      "name": "McCafé Bakery"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts & Sweets"
+    },
+    {
+      "id": "mccafe-drinks",
+      "name": "McCafé Drinks"
+    },
+    {
+      "id": "shakes-frappes",
+      "name": "Shakes & Frappés"
+    },
+    {
+      "id": "cold-drinks",
+      "name": "Cold & Frozen Drinks"
+    },
+    {
+      "id": "happy-meal",
+      "name": "Happy Meal"
+    }
+  ],
+  "components": {
+    "beef-patty": {
+      "name": "Regular beef patty",
+      "type": "protein",
+      "kj": 400,
+      "p": 7.5,
+      "f": 7,
+      "c": 0
+    },
+    "qp-patty": {
+      "name": "Quarter Pounder beef patty",
+      "type": "protein",
+      "kj": 1140,
+      "p": 22,
+      "f": 22,
+      "c": 0
+    },
+    "chicken-patty": {
+      "name": "McChicken patty",
+      "type": "protein",
+      "kj": 900,
+      "p": 11,
+      "f": 12,
+      "c": 18
+    },
+    "crispy-chicken-fillet": {
+      "name": "McCrispy chicken fillet",
+      "type": "protein",
+      "kj": 1250,
+      "p": 20,
+      "f": 17,
+      "c": 20
+    },
+    "fish-fillet": {
+      "name": "Fish fillet",
+      "type": "protein",
+      "kj": 830,
+      "p": 10.8,
+      "f": 7.6,
+      "c": 10
+    },
+    "nugget": {
+      "name": "Chicken McNugget",
+      "type": "protein",
+      "kj": 151,
+      "p": 2,
+      "f": 2.2,
+      "c": 2.1
+    },
+    "cheese-slice": {
+      "name": "Cheese slice",
+      "type": "cb",
+      "kj": 210,
+      "p": 3.5,
+      "f": 4,
+      "c": 1
+    },
+    "bacon": {
+      "name": "Bacon rasher",
+      "type": "cb",
+      "kj": 150,
+      "p": 3.5,
+      "f": 2.5,
+      "c": 0
+    },
+    "big-mac-sauce": {
+      "name": "Big Mac sauce",
+      "type": "sauce",
+      "kj": 377,
+      "p": 0.2,
+      "f": 8.1,
+      "c": 4.3
+    },
+    "tomato-sauce": {
+      "name": "Tomato sauce",
+      "type": "sauce",
+      "kj": 43,
+      "p": 0.1,
+      "f": 0,
+      "c": 2.3
+    },
+    "mustard": {
+      "name": "Mustard",
+      "type": "sauce",
+      "kj": 15,
+      "p": 0.2,
+      "f": 0.2,
+      "c": 0.3
+    },
+    "mayo": {
+      "name": "Mayo",
+      "type": "sauce",
+      "kj": 300,
+      "p": 0.2,
+      "f": 7.5,
+      "c": 1.5
+    },
+    "bbq-sauce": {
+      "name": "BBQ sauce",
+      "type": "sauce",
+      "kj": 182,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 10.2
+    },
+    "bbq-dip": {
+      "name": "Barbeque dipping sauce",
+      "type": "sauce",
+      "kj": 182,
+      "p": 0.3,
+      "f": 0.1,
+      "c": 10.2
+    },
+    "sweet-sour-dip": {
+      "name": "Sweet and sour dipping sauce",
+      "type": "sauce",
+      "kj": 204,
+      "p": 0.1,
+      "f": 0.1,
+      "c": 11.6
+    },
+    "sweet-mustard-dip": {
+      "name": "Sweet mustard dipping sauce",
+      "type": "sauce",
+      "kj": 327,
+      "p": 0.3,
+      "f": 2.9,
+      "c": 12.7
+    },
+    "spicy-buffalo-dip": {
+      "name": "Spicy buffalo dipping sauce",
+      "type": "sauce",
+      "kj": 117,
+      "p": 0.3,
+      "f": 0.8,
+      "c": 4.8
+    },
+    "ranch-dip": {
+      "name": "Ranch dipping sauce",
+      "type": "sauce",
+      "kj": 408,
+      "p": 0.3,
+      "f": 9.1,
+      "c": 3.9
+    },
+    "aioli-dip": {
+      "name": "Aioli dipping sauce",
+      "type": "sauce",
+      "kj": 775,
+      "p": 0.5,
+      "f": 20,
+      "c": 1.5
+    },
+    "tomato-sauce-dip": {
+      "name": "Tomato sauce sachet",
+      "type": "sauce",
+      "kj": 43,
+      "p": 0.1,
+      "f": 0,
+      "c": 2.3
+    },
+    "regular-bun": {
+      "name": "Regular bun",
+      "type": "bun",
+      "kj": 620,
+      "p": 4.1,
+      "f": 2,
+      "c": 26
+    },
+    "sesame-bun": {
+      "name": "Sesame seed bun",
+      "type": "bun",
+      "kj": 900,
+      "p": 6.5,
+      "f": 3.5,
+      "c": 38
+    },
+    "big-mac-bun": {
+      "name": "Big Mac three part bun",
+      "type": "bun",
+      "kj": 1000,
+      "p": 7.5,
+      "f": 4,
+      "c": 41
+    },
+    "english-muffin": {
+      "name": "English muffin",
+      "type": "bun",
+      "kj": 520,
+      "p": 4.5,
+      "f": 1.5,
+      "c": 24
+    },
+    "tortilla": {
+      "name": "Tortilla",
+      "type": "bun",
+      "kj": 700,
+      "p": 5,
+      "f": 4.5,
+      "c": 28
+    },
+    "round-egg": {
+      "name": "Round egg",
+      "type": "protein",
+      "kj": 300,
+      "p": 6.5,
+      "f": 5,
+      "c": 0.5
+    },
+    "folded-egg": {
+      "name": "Folded egg",
+      "type": "protein",
+      "kj": 280,
+      "p": 5.5,
+      "f": 5,
+      "c": 0.5
+    },
+    "sausage": {
+      "name": "Sausage patty",
+      "type": "protein",
+      "kj": 460,
+      "p": 8.2,
+      "f": 8.6,
+      "c": 0.5
+    },
+    "hash-brown-add": {
+      "name": "Hash brown",
+      "type": "extra",
+      "kj": 598,
+      "p": 1.4,
+      "f": 9.6,
+      "c": 12.5
+    },
+    "butter": {
+      "name": "Whipped butter",
+      "type": "extra",
+      "kj": 172,
+      "p": 0,
+      "f": 4.6,
+      "c": 0
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "type": "veg",
+      "kj": 5,
+      "p": 0.1,
+      "f": 0,
+      "c": 0.3
+    },
+    "tomato": {
+      "name": "Tomato slice",
+      "type": "veg",
+      "kj": 15,
+      "p": 0.2,
+      "f": 0,
+      "c": 0.7
+    },
+    "onion": {
+      "name": "Onion",
+      "type": "veg",
+      "kj": 8,
+      "p": 0.1,
+      "f": 0,
+      "c": 0.4
+    },
+    "pickles": {
+      "name": "Pickles",
+      "type": "veg",
+      "kj": 3,
+      "p": 0,
+      "f": 0,
+      "c": 0.2
+    }
+  },
+  "items": [
+    {
+      "id": "big-mac",
+      "name": "Big Mac",
+      "category": "beef-burgers",
+      "desc": "Two beef patties, Big Mac sauce, cheese, lettuce, pickles, onion on a sesame bun",
+      "serve": "1 burger (244 g)",
+      "nutrition": {
+        "kj": 2600,
+        "p": 28.7,
+        "f": 34.4,
+        "c": 46.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "big-mac-sauce",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "big-mac-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "double-big-mac",
+      "name": "Double Big Mac",
+      "category": "beef-burgers",
+      "desc": "Four beef patties, Big Mac sauce, cheese, lettuce, pickles, onion",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3400,
+        "p": 42.4,
+        "f": 47.7,
+        "c": 51.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 4,
+          "max": 6
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "big-mac-sauce",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "big-mac-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "quarter-pounder",
+      "name": "Quarter Pounder",
+      "category": "beef-burgers",
+      "desc": "Quarter pound beef patty, two cheese slices, onion, pickles, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2280,
+        "p": 31.1,
+        "f": 29.2,
+        "c": 37
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-quarter-pounder",
+      "name": "Double Quarter Pounder",
+      "category": "beef-burgers",
+      "desc": "Two quarter pound patties, two cheese slices, onion, pickles, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3530,
+        "p": 54.2,
+        "f": 51.6,
+        "c": 37.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "quarter-pounder-deluxe",
+      "name": "Quarter Pounder Deluxe",
+      "category": "beef-burgers",
+      "desc": "Quarter pound patty, cheese, lettuce, tomato, onion, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2460,
+        "p": 31.7,
+        "f": 32.6,
+        "c": 38.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-quarter-pounder-deluxe",
+      "name": "Double Quarter Pounder Deluxe",
+      "category": "beef-burgers",
+      "desc": "Two quarter pound patties, cheese, lettuce, tomato, onion, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3710,
+        "p": 54.8,
+        "f": 55,
+        "c": 39.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "qp-bbq-bacon",
+      "name": "Quarter Pounder BBQ Bacon & Crispy Onions",
+      "category": "beef-burgers",
+      "desc": "Quarter pound patty, bacon, cheese, BBQ sauce, crispy onions",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2610,
+        "p": 35.1,
+        "f": 34.1,
+        "c": 41.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "double-qp-bbq-bacon",
+      "name": "Double Quarter Pounder BBQ Bacon & Crispy Onions",
+      "category": "beef-burgers",
+      "desc": "Two quarter pound patties, bacon, cheese, BBQ sauce, crispy onions",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3860,
+        "p": 58.3,
+        "f": 56.5,
+        "c": 42.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "cheesy-quarter-pounder",
+      "name": "Cheesy Quarter Pounder",
+      "category": "beef-burgers",
+      "desc": "Quarter pound patty loaded with extra cheese",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3710,
+        "p": 45.7,
+        "f": 51,
+        "c": 57.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 3,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheesy-double-quarter-pounder",
+      "name": "Cheesy Double Quarter Pounder",
+      "category": "beef-burgers",
+      "desc": "Two quarter pound patties loaded with extra cheese",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4960,
+        "p": 68.9,
+        "f": 73.4,
+        "c": 58.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "qp-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 4,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "big-arch",
+      "name": "Big Arch",
+      "category": "beef-burgers",
+      "desc": "Two large beef patties, cheese, lettuce, pickles, onions and Big Arch sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4610,
+        "p": 58.8,
+        "f": 69.2,
+        "c": 57.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese-slice",
+          "d": 3,
+          "max": 5
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheeseburger",
+      "name": "Cheeseburger",
+      "category": "beef-burgers",
+      "desc": "Beef patty, cheese, pickles, onion, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1330,
+        "p": 15.3,
+        "f": 14.3,
+        "c": 31
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "double-cheeseburger",
+      "name": "Double Cheeseburger",
+      "category": "beef-burgers",
+      "desc": "Two beef patties, two cheese slices, pickles, onion, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2010,
+        "p": 26.2,
+        "f": 25.9,
+        "c": 34.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "triple-cheeseburger",
+      "name": "Triple Cheeseburger",
+      "category": "beef-burgers",
+      "desc": "Three beef patties, three cheese slices, pickles, onion, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2880,
+        "p": 40.5,
+        "f": 41,
+        "c": 37.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 3,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 3,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "hamburger",
+      "name": "Hamburger",
+      "category": "beef-burgers",
+      "desc": "Beef patty, pickles, onion, tomato sauce, mustard",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1230,
+        "p": 14.2,
+        "f": 12.3,
+        "c": 30.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mustard",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "mcnuggets-6",
+      "name": "6pc Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "6 pieces",
+      "nutrition": {
+        "kj": 957,
+        "p": 12.9,
+        "f": 13.4,
+        "c": 14
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 6,
+          "max": 16
+        },
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "mcnuggets-10",
+      "name": "10pc Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "10 pieces",
+      "nutrition": {
+        "kj": 1600,
+        "p": 21.5,
+        "f": 22.4,
+        "c": 23.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 10,
+          "max": 20
+        },
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "mcnuggets-20",
+      "name": "20pc Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "20 pieces",
+      "nutrition": {
+        "kj": 3190,
+        "p": 43.1,
+        "f": 44.7,
+        "c": 46.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 20,
+          "max": 30
+        },
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "mcnuggets-40",
+      "name": "40pc Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "40 pieces",
+      "nutrition": {
+        "kj": 6380,
+        "p": 86.2,
+        "f": 89.4,
+        "c": 93.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 40,
+          "max": 50
+        },
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "spicy-mcnuggets-6",
+      "name": "6pc Spicy Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Spicy coated Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "6 pieces",
+      "nutrition": {
+        "kj": 1010,
+        "p": 16.7,
+        "f": 14.4,
+        "c": 10.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "spicy-mcnuggets-10",
+      "name": "10pc Spicy Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Spicy coated Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "10 pieces",
+      "nutrition": {
+        "kj": 1690,
+        "p": 27.8,
+        "f": 24,
+        "c": 18.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "spicy-mcnuggets-20",
+      "name": "20pc Spicy Chicken McNuggets",
+      "category": "chicken-fish",
+      "desc": "Spicy coated Chicken McNuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "20 pieces",
+      "nutrition": {
+        "kj": 3370,
+        "p": 55.7,
+        "f": 48,
+        "c": 36.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "mcwings-3",
+      "name": "3pc Chicken McWings",
+      "category": "chicken-fish",
+      "desc": "Three bone in seasoned chicken wings",
+      "serve": "3 pieces",
+      "nutrition": {
+        "kj": 2010,
+        "p": 27.5,
+        "f": 30.2,
+        "c": 20.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nashville-mcwings-3",
+      "name": "3pc Nashville Shaker McWings",
+      "category": "chicken-fish",
+      "desc": "Chicken McWings with Nashville hot seasoning",
+      "serve": "3 pieces",
+      "nutrition": {
+        "kj": 1990,
+        "p": 26.6,
+        "f": 29.2,
+        "c": 22.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "mcchicken",
+      "name": "McChicken",
+      "category": "chicken-fish",
+      "desc": "Chicken patty, shredded lettuce, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1800,
+        "p": 16.2,
+        "f": 19.7,
+        "c": 45.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "chicken-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "double-mcchicken",
+      "name": "Double McChicken",
+      "category": "chicken-fish",
+      "desc": "Two chicken patties, shredded lettuce, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2600,
+        "p": 27.5,
+        "f": 29.5,
+        "c": 58.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "chicken-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "chicken-n-cheese",
+      "name": "Chicken 'n' Cheese",
+      "category": "chicken-fish",
+      "desc": "Chicken patty, cheese, pickles, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1750,
+        "p": 16.7,
+        "f": 21,
+        "c": 39.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "chicken-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "mccrispy",
+      "name": "McCrispy",
+      "category": "chicken-fish",
+      "desc": "Crispy chicken fillet, pickles and sauce on a potato style bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2680,
+        "p": 24.5,
+        "f": 35.1,
+        "c": 55
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "mccrispy-deluxe",
+      "name": "McCrispy Deluxe",
+      "category": "chicken-fish",
+      "desc": "Crispy chicken fillet, lettuce, tomato, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2900,
+        "p": 27.7,
+        "f": 39,
+        "c": 56.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheesy-mccrispy",
+      "name": "Cheesy McCrispy",
+      "category": "chicken-fish",
+      "desc": "Crispy chicken fillet loaded with cheese",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3940,
+        "p": 42.4,
+        "f": 46.7,
+        "c": 84.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "nashville-mccrispy",
+      "name": "Nashville McCrispy",
+      "category": "chicken-fish",
+      "desc": "Crispy chicken fillet with Nashville hot seasoning, pickles",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2320,
+        "p": 22.5,
+        "f": 20.9,
+        "c": 65.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "mcspicy",
+      "name": "McSpicy",
+      "category": "chicken-fish",
+      "desc": "Spicy crispy chicken fillet, lettuce, mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2320,
+        "p": 28.1,
+        "f": 26.6,
+        "c": 47.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "nashville-mcspicy",
+      "name": "Nashville McSpicy",
+      "category": "chicken-fish",
+      "desc": "Spicy chicken fillet with Nashville hot seasoning",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2330,
+        "p": 28.6,
+        "f": 23.3,
+        "c": 54.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "filet-o-fish",
+      "name": "Filet-O-Fish",
+      "category": "chicken-fish",
+      "desc": "Fish fillet, half slice of cheese, tartare sauce, steamed bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1410,
+        "p": 14.6,
+        "f": 14.5,
+        "c": 34.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "fish-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "double-filet-o-fish",
+      "name": "Double Filet-O-Fish",
+      "category": "chicken-fish",
+      "desc": "Two fish fillets, cheese, tartare sauce, steamed bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2030,
+        "p": 25.3,
+        "f": 22.2,
+        "c": 42.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "fish-fillet",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "regular-bun",
+          "d": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "classic-chicken-mcwrap",
+      "name": "Classic Chicken McWrap",
+      "category": "wraps",
+      "desc": "Crispy chicken, lettuce, tomato, cheese, sauce in a tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2910,
+        "p": 23.1,
+        "f": 38.5,
+        "c": 62.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "spicy-chicken-mcwrap",
+      "name": "Spicy Chicken McWrap",
+      "category": "wraps",
+      "desc": "Spicy chicken, lettuce, tomato, cheese, sauce in a tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2450,
+        "p": 29,
+        "f": 28.3,
+        "c": 51.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "nashville-mcwrap",
+      "name": "Nashville McWrap",
+      "category": "wraps",
+      "desc": "Chicken with Nashville hot seasoning, lettuce, cheese, sauce",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2530,
+        "p": 23.6,
+        "f": 24.5,
+        "c": 69.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "crispy-chicken-snack-wrap",
+      "name": "Crispy Chicken Snack Wrap",
+      "category": "wraps",
+      "desc": "Crispy chicken, lettuce, cheese, mayo in a small tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 1310,
+        "p": 12.2,
+        "f": 14.3,
+        "c": 32.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "bacon-egg-mcmuffin",
+      "name": "Bacon & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Round egg, bacon, cheese on a toasted English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1180,
+        "p": 17.6,
+        "f": 11.8,
+        "c": 25.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-bacon-egg-mcmuffin",
+      "name": "Double Bacon & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Round egg, double bacon, cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1370,
+        "p": 21.5,
+        "f": 15.1,
+        "c": 25.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "deluxe-bacon-egg-mcmuffin",
+      "name": "Deluxe Bacon & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Bacon & Egg McMuffin with extra toppings",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1370,
+        "p": 18.1,
+        "f": 15.9,
+        "c": 26.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sausage-mcmuffin",
+      "name": "Sausage McMuffin",
+      "category": "breakfast",
+      "desc": "Sausage patty and cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1240,
+        "p": 15.9,
+        "f": 14,
+        "c": 25.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-sausage-mcmuffin",
+      "name": "Double Sausage McMuffin",
+      "category": "breakfast",
+      "desc": "Two sausage patties and cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1880,
+        "p": 26.5,
+        "f": 26.2,
+        "c": 25.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "sausage",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sausage-egg-mcmuffin",
+      "name": "Sausage & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Sausage, round egg and cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1530,
+        "p": 21.9,
+        "f": 19.3,
+        "c": 25.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-sausage-egg-mcmuffin",
+      "name": "Double Sausage & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Two sausages, round egg and cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 2180,
+        "p": 32.3,
+        "f": 31.7,
+        "c": 26.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "deluxe-sausage-egg-mcmuffin",
+      "name": "Deluxe Sausage & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Sausage & Egg McMuffin with extra toppings",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1710,
+        "p": 22.3,
+        "f": 22.8,
+        "c": 27.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "mighty-mcmuffin",
+      "name": "Mighty McMuffin",
+      "category": "breakfast",
+      "desc": "Sausage, bacon, round egg and cheese on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1850,
+        "p": 29.7,
+        "f": 21.7,
+        "c": 30.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "deluxe-mighty-mcmuffin",
+      "name": "Deluxe Mighty McMuffin",
+      "category": "breakfast",
+      "desc": "Mighty McMuffin with extra toppings",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 2030,
+        "p": 30.2,
+        "f": 26.4,
+        "c": 30.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "chicken-mcmuffin",
+      "name": "Chicken McMuffin",
+      "category": "breakfast",
+      "desc": "Crispy chicken, cheese and sauce on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1680,
+        "p": 19.2,
+        "f": 18.4,
+        "c": 38.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "round-egg",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "chicken-bacon-mcmuffin",
+      "name": "Chicken & Bacon McMuffin",
+      "category": "breakfast",
+      "desc": "Crispy chicken, bacon, cheese and sauce on an English muffin",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1790,
+        "p": 22.9,
+        "f": 19.6,
+        "c": 38.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "round-egg",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "birdie-bacon-egg-mcmuffin",
+      "name": "Birdie Bacon & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Bacon & Egg McMuffin with Birdie sauce",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1580,
+        "p": 18,
+        "f": 21.3,
+        "c": 27.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "birdie-sausage-egg-mcmuffin",
+      "name": "Birdie Sausage & Egg McMuffin",
+      "category": "breakfast",
+      "desc": "Sausage & Egg McMuffin with Birdie sauce",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 1910,
+        "p": 22.2,
+        "f": 28.2,
+        "c": 28
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "birdie-chicken-bacon-mcmuffin",
+      "name": "Birdie Chicken & Bacon McMuffin",
+      "category": "breakfast",
+      "desc": "Chicken & Bacon McMuffin with Birdie sauce",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 2050,
+        "p": 23.2,
+        "f": 25.8,
+        "c": 40
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "english-muffin",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "birdie-brekkie-mcwrap",
+      "name": "Birdie Brekkie McWrap",
+      "category": "breakfast",
+      "desc": "Brekkie McWrap with Birdie sauce",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2160,
+        "p": 18.3,
+        "f": 33.5,
+        "c": 34.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "folded-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "big-brekkie-burger",
+      "name": "Big Brekkie Burger",
+      "category": "breakfast",
+      "desc": "Beef patty, bacon, egg, hash brown, cheese, BBQ sauce on a bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3140,
+        "p": 39.6,
+        "f": 40.9,
+        "c": 54
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "beef-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "round-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "sesame-bun",
+          "d": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "brekkie-mcwrap",
+      "name": "Brekkie McWrap",
+      "category": "breakfast",
+      "desc": "Folded egg, bacon, hash brown, cheese, BBQ sauce in a tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 1860,
+        "p": 18.4,
+        "f": 24.4,
+        "c": 36.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "folded-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "mega-brekkie-mcwrap",
+      "name": "Mega Brekkie McWrap",
+      "category": "breakfast",
+      "desc": "Folded eggs, bacon, sausage, hash browns, cheese in a tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 3290,
+        "p": 40.2,
+        "f": 45.2,
+        "c": 53.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "folded-egg",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "sausage",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "deluxe-brekkie-mcwrap",
+      "name": "Deluxe Brekkie McWrap",
+      "category": "breakfast",
+      "desc": "Brekkie McWrap with extra toppings",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2100,
+        "p": 20.2,
+        "f": 29.4,
+        "c": 37.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "folded-egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "hash-brown-add",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese-slice",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "hotcakes",
+      "name": "Hotcakes with Butter & Syrup",
+      "category": "breakfast",
+      "desc": "Three hotcakes with whipped butter and syrup",
+      "serve": "3 hotcakes",
+      "nutrition": {
+        "kj": 2480,
+        "p": 9.1,
+        "f": 18.2,
+        "c": 97.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "ham-cheese-pocket",
+      "name": "Ham & Cheese Pocket",
+      "category": "breakfast",
+      "desc": "Toasted pocket filled with ham and cheese",
+      "serve": "1 pocket",
+      "nutrition": {
+        "kj": 861,
+        "p": 10.9,
+        "f": 9.1,
+        "c": 19.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hash-brown",
+      "name": "Hash Brown",
+      "category": "breakfast",
+      "desc": "Golden potato hash brown",
+      "serve": "1 hash brown",
+      "nutrition": {
+        "kj": 600,
+        "p": 1.4,
+        "f": 9.6,
+        "c": 12.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "chips-small",
+      "name": "Small Chips",
+      "category": "sides",
+      "desc": "Macca's fries, small",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 914,
+        "p": 3.5,
+        "f": 11.5,
+        "c": 24.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "chips-medium",
+      "name": "Medium Chips",
+      "category": "sides",
+      "desc": "Macca's fries, medium",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1320,
+        "p": 5,
+        "f": 16.6,
+        "c": 35.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "chips-large",
+      "name": "Large Chips",
+      "category": "sides",
+      "desc": "Macca's fries, large",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 1630,
+        "p": 6.1,
+        "f": 20.5,
+        "c": 43.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nashville-shaker-chips",
+      "name": "Nashville McShaker Chips",
+      "category": "sides",
+      "desc": "Small chips with Nashville hot shaker seasoning",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 977,
+        "p": 3.6,
+        "f": 11.7,
+        "c": 27.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "apple-slices",
+      "name": "Apple Slices",
+      "category": "sides",
+      "desc": "Fresh apple slices",
+      "serve": "1 bag",
+      "nutrition": {
+        "kj": 131,
+        "p": 0.2,
+        "f": 0.2,
+        "c": 6.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "ham-cheese-tomato-toastie",
+      "name": "Ham, Cheese & Tomato Toastie",
+      "category": "mccafe-bakery",
+      "desc": "Toasted sandwich with ham, cheese and tomato",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1520,
+        "p": 20.2,
+        "f": 11.1,
+        "c": 44.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "ham-cheese-toastie",
+      "name": "Ham & Cheese Toastie",
+      "category": "mccafe-bakery",
+      "desc": "Toasted sandwich with ham and cheese",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1490,
+        "p": 19.8,
+        "f": 11.1,
+        "c": 43.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "cheese-tomato-toastie",
+      "name": "Cheese & Tomato Toastie",
+      "category": "mccafe-bakery",
+      "desc": "Toasted sandwich with cheese and tomato",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1350,
+        "p": 14.3,
+        "f": 9.2,
+        "c": 44.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "cheesy-toastie",
+      "name": "Cheesy Toastie",
+      "category": "mccafe-bakery",
+      "desc": "Toasted cheese sandwich",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1320,
+        "p": 13.9,
+        "f": 9.2,
+        "c": 43.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "banana-bread",
+      "name": "Banana Bread with Butter",
+      "category": "mccafe-bakery",
+      "desc": "Toasted banana bread slice with butter",
+      "serve": "1 slice",
+      "nutrition": {
+        "kj": 2270,
+        "p": 7,
+        "f": 25.4,
+        "c": 70.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "raisin-toast",
+      "name": "Raisin Toast with Butter",
+      "category": "mccafe-bakery",
+      "desc": "Toasted raisin bread with butter",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 998,
+        "p": 6.9,
+        "f": 7.1,
+        "c": 34.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "butter",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-choc-muffin",
+      "name": "Double Choc Muffin",
+      "category": "mccafe-bakery",
+      "desc": "Chocolate muffin with choc chips",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 2830,
+        "p": 6.8,
+        "f": 29.9,
+        "c": 93.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "apple-crumble-muffin",
+      "name": "Apple Crumble Muffin",
+      "category": "mccafe-bakery",
+      "desc": "Apple muffin with crumble topping",
+      "serve": "1 muffin",
+      "nutrition": {
+        "kj": 2500,
+        "p": 7,
+        "f": 25.7,
+        "c": 82.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "berry-mcpops",
+      "name": "Berry McPops",
+      "category": "mccafe-bakery",
+      "desc": "Bite sized berry filled doughnut pops",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 436,
+        "p": 1.4,
+        "f": 6,
+        "c": 11.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "biscoff-mcpops",
+      "name": "Biscoff McPops",
+      "category": "mccafe-bakery",
+      "desc": "Bite sized Biscoff filled doughnut pops",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 518,
+        "p": 1.3,
+        "f": 7.5,
+        "c": 12.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "choc-mcpops",
+      "name": "Choc McPops",
+      "category": "mccafe-bakery",
+      "desc": "Bite sized chocolate filled doughnut pops",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 530,
+        "p": 1.6,
+        "f": 8.3,
+        "c": 11.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hot-apple-pie",
+      "name": "Hot Apple Pie",
+      "category": "desserts",
+      "desc": "Crispy pastry filled with hot apple",
+      "serve": "1 pie",
+      "nutrition": {
+        "kj": 1050,
+        "p": 1.9,
+        "f": 14,
+        "c": 28.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mcdonaldland-cookies",
+      "name": "McDonaldland Cookies",
+      "category": "desserts",
+      "desc": "Bag of shortbread style cookies",
+      "serve": "1 bag",
+      "nutrition": {
+        "kj": 1130,
+        "p": 3.1,
+        "f": 8.2,
+        "c": 45
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "oreo-mcflurry",
+      "name": "OREO McFlurry",
+      "category": "desserts",
+      "desc": "Soft serve with crushed OREO cookies",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 1310,
+        "p": 7.3,
+        "f": 10.1,
+        "c": 47.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mm-mcflurry",
+      "name": "M&M's Minis McFlurry",
+      "category": "desserts",
+      "desc": "Soft serve with M&M's Minis",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 1640,
+        "p": 8.4,
+        "f": 13.6,
+        "c": 57.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "tim-tam-jatz-mcflurry",
+      "name": "Tim Tam & Jatz Inspired McFlurry",
+      "category": "desserts",
+      "desc": "Soft serve with Tim Tam and Jatz inspired pieces",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 1500,
+        "p": 7.9,
+        "f": 10.6,
+        "c": 56.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "soft-serve-cone",
+      "name": "Soft Serve Cone",
+      "category": "desserts",
+      "desc": "Vanilla soft serve in a cone",
+      "serve": "1 cone",
+      "nutrition": {
+        "kj": 579,
+        "p": 4,
+        "f": 3.7,
+        "c": 22
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "cone-with-flake",
+      "name": "Soft Serve Cone with Cadbury Flake",
+      "category": "desserts",
+      "desc": "Vanilla soft serve cone with a Cadbury Flake",
+      "serve": "1 cone",
+      "nutrition": {
+        "kj": 767,
+        "p": 4.6,
+        "f": 6.1,
+        "c": 27
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hot-fudge-sundae",
+      "name": "Hot Fudge Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with hot fudge topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1320,
+        "p": 7.3,
+        "f": 9.6,
+        "c": 49.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "caramel-sundae",
+      "name": "Caramel Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with caramel topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1350,
+        "p": 6.6,
+        "f": 7.4,
+        "c": 56.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "strawberry-sundae",
+      "name": "Strawberry Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with strawberry topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1110,
+        "p": 5.8,
+        "f": 5.5,
+        "c": 47.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "plain-sundae",
+      "name": "Plain Sundae",
+      "category": "desserts",
+      "desc": "Vanilla soft serve in a cup",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 810,
+        "p": 5.7,
+        "f": 5.5,
+        "c": 30
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "affogato",
+      "name": "Affogato",
+      "category": "desserts",
+      "desc": "Soft serve with a shot of espresso",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 1050,
+        "p": 7.4,
+        "f": 7.2,
+        "c": 38.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hazelnut-affogato",
+      "name": "Hazelnut Affogato",
+      "category": "desserts",
+      "desc": "Affogato with hazelnut flavoured syrup",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 1240,
+        "p": 7.4,
+        "f": 7.2,
+        "c": 49.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "category": "mccafe-drinks",
+      "desc": "Espresso with steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 666,
+        "p": 8.5,
+        "f": 8.7,
+        "c": 11.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "category": "mccafe-drinks",
+      "desc": "Espresso with steamed milk and foam, chocolate dusting",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 699,
+        "p": 8.6,
+        "f": 8.8,
+        "c": 13.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "category": "mccafe-drinks",
+      "desc": "Espresso with velvety steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 666,
+        "p": 8.5,
+        "f": 8.7,
+        "c": 11.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "category": "mccafe-drinks",
+      "desc": "Espresso, chocolate and steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1190,
+        "p": 10,
+        "f": 9.5,
+        "c": 38.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "category": "mccafe-drinks",
+      "desc": "Chocolate with steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1460,
+        "p": 11.1,
+        "f": 10.2,
+        "c": 51.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Latte",
+      "category": "mccafe-drinks",
+      "desc": "Spiced chai with steamed milk",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1220,
+        "p": 10.6,
+        "f": 10.7,
+        "c": 37.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "long-black",
+      "name": "Long Black",
+      "category": "mccafe-drinks",
+      "desc": "Espresso over hot water",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "english-breakfast-tea",
+      "name": "English Breakfast Tea",
+      "category": "mccafe-drinks",
+      "desc": "Black tea, no milk",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 19,
+        "p": 0.3,
+        "f": 0.3,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Latte",
+      "category": "mccafe-drinks",
+      "desc": "Espresso and cold milk over ice",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 728,
+        "p": 16.4,
+        "f": 3.6,
+        "c": 19
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-chocolate",
+      "name": "Iced Chocolate",
+      "category": "mccafe-drinks",
+      "desc": "Chocolate milk over ice with soft serve",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1470,
+        "p": 10.3,
+        "f": 15.4,
+        "c": 41.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-tiramisu-latte",
+      "name": "Iced Tiramisu Latte with Cold Foam",
+      "category": "mccafe-drinks",
+      "desc": "Iced latte with tiramisu flavour and cold foam",
+      "serve": "Medium, full cream milk",
+      "nutrition": {
+        "kj": 1200,
+        "p": 8.5,
+        "f": 12.7,
+        "c": 33.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "brown-sugar-shaken-espresso",
+      "name": "Brown Sugar Shaken Espresso",
+      "category": "mccafe-drinks",
+      "desc": "Espresso shaken with brown sugar syrup and milk",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 682,
+        "p": 0.9,
+        "f": 4.2,
+        "c": 29.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chocolate-shake",
+      "name": "Chocolate Thickshake",
+      "category": "shakes-frappes",
+      "desc": "Chocolate thickshake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1670,
+        "p": 11.2,
+        "f": 10,
+        "c": 64.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "strawberry-shake",
+      "name": "Strawberry Thickshake",
+      "category": "shakes-frappes",
+      "desc": "Strawberry thickshake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1650,
+        "p": 10.6,
+        "f": 9.6,
+        "c": 65.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "vanilla-shake",
+      "name": "Vanilla Thickshake",
+      "category": "shakes-frappes",
+      "desc": "Vanilla thickshake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1630,
+        "p": 10.6,
+        "f": 9.6,
+        "c": 64.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coffee-frappe",
+      "name": "Coffee Frappé",
+      "category": "shakes-frappes",
+      "desc": "Blended iced coffee frappé",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2270,
+        "p": 10.2,
+        "f": 24.9,
+        "c": 67.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chocolate-frappe",
+      "name": "Chocolate Frappé",
+      "category": "shakes-frappes",
+      "desc": "Blended iced chocolate frappé",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2330,
+        "p": 9.2,
+        "f": 24.1,
+        "c": 74.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "choc-coconut-frappe",
+      "name": "Choc Coconut Frappé",
+      "category": "shakes-frappes",
+      "desc": "Blended chocolate coconut frappé",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2490,
+        "p": 11.7,
+        "f": 26,
+        "c": 78
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola",
+      "category": "cold-drinks",
+      "desc": "Soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 568,
+        "p": 0,
+        "f": 0,
+        "c": 33.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coke-zero",
+      "name": "Coca-Cola Zero Sugar",
+      "category": "cold-drinks",
+      "desc": "Sugar free soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 7,
+        "p": 0,
+        "f": 0,
+        "c": 0.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sprite",
+      "name": "Sprite",
+      "category": "cold-drinks",
+      "desc": "Lemonade soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 570,
+        "p": 0,
+        "f": 0,
+        "c": 32.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "fanta",
+      "name": "Fanta",
+      "category": "cold-drinks",
+      "desc": "Orange soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 702,
+        "p": 0,
+        "f": 0,
+        "c": 42.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-coke",
+      "name": "Frozen Coke",
+      "category": "cold-drinks",
+      "desc": "Frozen Coca-Cola slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 366,
+        "p": 0,
+        "f": 0,
+        "c": 21.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-fanta-raspberry",
+      "name": "Frozen Fanta Raspberry",
+      "category": "cold-drinks",
+      "desc": "Frozen raspberry slushie",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 366,
+        "p": 0,
+        "f": 0,
+        "c": 21.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "category": "cold-drinks",
+      "desc": "Orange juice",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 469,
+        "p": 0,
+        "f": 0,
+        "c": 28.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "lemon-flavour-drink",
+      "name": "Lemon Flavour Drink",
+      "category": "cold-drinks",
+      "desc": "Lemon flavoured cold drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 266,
+        "p": 0.1,
+        "f": 0,
+        "c": 15.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "strawberry-watermelon-refresher",
+      "name": "Strawberry Watermelon Refresher",
+      "category": "cold-drinks",
+      "desc": "Fruity iced refresher",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 669,
+        "p": 0.4,
+        "f": 0.2,
+        "c": 39.9
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "popping-mango-refresher",
+      "name": "Popping Mango Refresher",
+      "category": "cold-drinks",
+      "desc": "Mango refresher with popping pearls",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 836,
+        "p": 0.1,
+        "f": 0,
+        "c": 47.3
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "red-bull",
+      "name": "Red Bull",
+      "category": "cold-drinks",
+      "desc": "Red Bull energy drink",
+      "serve": "250mL can",
+      "nutrition": {
+        "kj": 487,
+        "p": 0,
+        "f": 0,
+        "c": 27
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "water",
+      "name": "Cool Ridge Water",
+      "category": "cold-drinks",
+      "desc": "Still spring water",
+      "serve": "600mL",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "happy-meal-nuggets-3",
+      "name": "3pc Chicken McNuggets",
+      "category": "happy-meal",
+      "desc": "Happy Meal sized McNuggets",
+      "serve": "3 pieces",
+      "nutrition": {
+        "kj": 479,
+        "p": 6.5,
+        "f": 6.7,
+        "c": 7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 3,
+          "max": 6
+        },
+        {
+          "ref": "bbq-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-mustard-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-buffalo-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "ranch-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "aioli-dip",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "tomato-sauce-dip",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "calciyum",
+      "name": "CalciYum Chocolate Flavoured Milk",
+      "category": "happy-meal",
+      "desc": "Chocolate flavoured milk",
+      "serve": "1 carton",
+      "nutrition": {
+        "kj": 633,
+        "p": 8.3,
+        "f": 3.5,
+        "c": 20.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pop-tops-apple",
+      "name": "Pop Tops Apple Juice",
+      "category": "happy-meal",
+      "desc": "Apple juice",
+      "serve": "1 bottle",
+      "nutrition": {
+        "kj": 540,
+        "p": 0,
+        "f": 0,
+        "c": 29.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pop-tops-water",
+      "name": "Pop Tops Water",
+      "category": "happy-meal",
+      "desc": "Spring water",
+      "serve": "1 bottle",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    }
+  ]
+}

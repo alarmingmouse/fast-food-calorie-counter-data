@@ -1,0 +1,2878 @@
+{
+  "id": "kfc",
+  "name": "KFC",
+  "nick": "Kentucky",
+  "mono": "KFC",
+  "colors": {
+    "brand": "#C8102E",
+    "onBrand": "#FFFFFF",
+    "badge": "#C8102E",
+    "badgeFg": "#FFFFFF"
+  },
+  "sources": [
+    {
+      "url": "https://www.kfc.com.au/nutrition-allergen",
+      "kind": "web",
+      "title": "KFC Australia Nutrition & Allergen Guide (item detail panels)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.calorieking.com/au/en/foods/b/calories-in-kfc-australia/ohGC4pMTQdmknvoGmoQZVw",
+      "kind": "web",
+      "title": "CalorieKing Australia: KFC Australia (third party, kJ per serve) (estimates for items KFC does not list)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.fatsecret.com.au/calories-nutrition/search?q=KFC",
+      "kind": "web",
+      "title": "FatSecret Australia: KFC search results (third party, kcal per serve) (estimates for items KFC does not list)",
+      "checked": "2026-10-31"
+    }
+  ],
+  "lastChecked": "2026-10-31",
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Burgers"
+    },
+    {
+      "id": "sliders",
+      "name": "Sliders"
+    },
+    {
+      "id": "twisters",
+      "name": "Twisters"
+    },
+    {
+      "id": "bowls",
+      "name": "Bowls"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "wicked",
+      "name": "Wicked Wings & Boneless"
+    },
+    {
+      "id": "tenders-nuggets",
+      "name": "Tenders, Nuggets & Popcorn"
+    },
+    {
+      "id": "snacks",
+      "name": "Go Buckets & Snacks"
+    },
+    {
+      "id": "boxes-combos",
+      "name": "Boxes & Combos"
+    },
+    {
+      "id": "sides",
+      "name": "Sides"
+    },
+    {
+      "id": "sauces",
+      "name": "Sauces"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "kwench",
+      "name": "KWENCH Shakes & Refreshers"
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks"
+    },
+    {
+      "id": "kids",
+      "name": "Kids"
+    }
+  ],
+  "components": {
+    "zinger-fillet": {
+      "name": "Zinger fillet",
+      "type": "protein",
+      "kj": 936,
+      "p": 20.4,
+      "f": 12,
+      "c": 9.1
+    },
+    "or-fillet": {
+      "name": "Original Crispy fillet",
+      "type": "protein",
+      "kj": 936,
+      "p": 18.9,
+      "f": 11.8,
+      "c": 10.5
+    },
+    "or-tender": {
+      "name": "Original tender",
+      "type": "protein",
+      "kj": 563,
+      "p": 11.4,
+      "f": 7.1,
+      "c": 6.2
+    },
+    "or-piece": {
+      "name": "Original Recipe piece (average)",
+      "type": "protein",
+      "kj": 984,
+      "p": 20.4,
+      "f": 13.9,
+      "c": 7.2
+    },
+    "cheese": {
+      "name": "Cheese slice",
+      "type": "cb",
+      "kj": 230,
+      "p": 2.9,
+      "f": 4,
+      "c": 1.8
+    },
+    "bacon": {
+      "name": "Bacon",
+      "type": "cb",
+      "kj": 190,
+      "p": 4,
+      "f": 3.5,
+      "c": 0
+    },
+    "hash-brown": {
+      "name": "Hash brown",
+      "type": "extra",
+      "kj": 577,
+      "p": 1.4,
+      "f": 8.6,
+      "c": 13.9
+    },
+    "mayo": {
+      "name": "Mayo",
+      "type": "sauce",
+      "kj": 290,
+      "p": 0.1,
+      "f": 7,
+      "c": 1
+    },
+    "supercharged": {
+      "name": "Supercharged sauce",
+      "type": "sauce",
+      "kj": 377,
+      "p": 0.3,
+      "f": 8.4,
+      "c": 3.5
+    },
+    "bbq-sauce": {
+      "name": "Smoky BBQ sauce",
+      "type": "sauce",
+      "kj": 150,
+      "p": 0.1,
+      "f": 0,
+      "c": 8.6
+    },
+    "gravy": {
+      "name": "Gravy (side tub)",
+      "type": "extra",
+      "kj": 213,
+      "p": 1.8,
+      "f": 1.2,
+      "c": 8.3
+    },
+    "burger-bun": {
+      "name": "Burger bun",
+      "type": "bun",
+      "kj": 740,
+      "p": 6.5,
+      "f": 1.5,
+      "c": 33
+    },
+    "slider-bun": {
+      "name": "Slider bun",
+      "type": "bun",
+      "kj": 440,
+      "p": 3.5,
+      "f": 1,
+      "c": 19
+    },
+    "tortilla": {
+      "name": "Tortilla",
+      "type": "bun",
+      "kj": 840,
+      "p": 5.5,
+      "f": 4.5,
+      "c": 34
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "type": "veg",
+      "kj": 8,
+      "p": 0.2,
+      "f": 0,
+      "c": 0.3
+    },
+    "tomato": {
+      "name": "Tomato",
+      "type": "veg",
+      "kj": 10,
+      "p": 0.2,
+      "f": 0,
+      "c": 0.5
+    },
+    "chicken-salt": {
+      "name": "Chicken salt",
+      "type": "veg",
+      "kj": 15,
+      "p": 0,
+      "f": 0,
+      "c": 0.5
+    },
+    "dip-sweet-sour": {
+      "name": "Sweet & Sour dipping sauce",
+      "type": "sauce",
+      "kj": 286,
+      "p": 0.1,
+      "f": 0.3,
+      "c": 16
+    },
+    "dip-bbq": {
+      "name": "Smoky BBQ dipping sauce",
+      "type": "sauce",
+      "kj": 222,
+      "p": 0.1,
+      "f": 0,
+      "c": 12.9
+    },
+    "dip-supercharged": {
+      "name": "Supercharged dipping sauce",
+      "type": "sauce",
+      "kj": 415,
+      "p": 0.4,
+      "f": 9.3,
+      "c": 3.9
+    },
+    "dip-aioli": {
+      "name": "Creamy Garlic dipping sauce",
+      "type": "sauce",
+      "kj": 480,
+      "p": 0.5,
+      "f": 11,
+      "c": 3.9
+    },
+    "dip-sweet-chilli": {
+      "name": "Sweet Chilli dipping sauce",
+      "type": "sauce",
+      "kj": 257,
+      "p": 0,
+      "f": 0,
+      "c": 15.1
+    },
+    "dip-tomato": {
+      "name": "Tomato dipping sauce",
+      "type": "sauce",
+      "kj": 151,
+      "p": 0.3,
+      "f": 0,
+      "c": 8.5
+    },
+    "nugget": {
+      "name": "Nugget",
+      "type": "protein",
+      "kj": 175,
+      "p": 2.7,
+      "f": 2.6,
+      "c": 2
+    }
+  },
+  "items": [
+    {
+      "id": "zinger-burger",
+      "name": "Zinger Burger",
+      "category": "burgers",
+      "desc": "Zinger fillet, mayo, lettuce on a bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1874,
+        "p": 26.2,
+        "f": 22.5,
+        "c": 34.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "original-burger",
+      "name": "Original Crispy Burger",
+      "category": "burgers",
+      "desc": "Original Recipe fillet, mayo, lettuce on a bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1874,
+        "p": 24.7,
+        "f": 22.3,
+        "c": 35.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "zinger-bacon-cheese-burger",
+      "name": "Zinger Bacon & Cheese Burger",
+      "category": "burgers",
+      "desc": "Zinger fillet, bacon, cheese, mayo, lettuce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2298,
+        "p": 33.1,
+        "f": 30,
+        "c": 36.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "original-bacon-cheese-burger",
+      "name": "Original Crispy Bacon & Cheese Burger",
+      "category": "burgers",
+      "desc": "Original Recipe fillet, bacon, cheese, mayo, lettuce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2384,
+        "p": 31.6,
+        "f": 32.8,
+        "c": 36.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "zinger-stacker-burger",
+      "name": "Zinger Stacker Burger",
+      "category": "burgers",
+      "desc": "Two Zinger fillets, cheese, bacon, Supercharged sauce, BBQ sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3082,
+        "p": 51.2,
+        "f": 37.3,
+        "c": 48.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "supercharged",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "bbq-bacon-stacker-burger",
+      "name": "Original Crispy BBQ Bacon Stacker Burger",
+      "category": "burgers",
+      "desc": "Two Original Recipe fillets, bacon, cheese, smoky BBQ sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3526,
+        "p": 55,
+        "f": 45.8,
+        "c": 51.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-fillet",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "zinger-crunch-burger",
+      "name": "Zinger Crunch Burger",
+      "category": "burgers",
+      "desc": "Zinger fillet, crunchy slaw, mayo on a bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2378,
+        "p": 29.7,
+        "f": 29.3,
+        "c": 45.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-tender-burger",
+      "name": "Double Tender Burger",
+      "category": "burgers",
+      "desc": "Two Original tenders, cheese, mayo, lettuce on a bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2183,
+        "p": 28.8,
+        "f": 28.1,
+        "c": 37.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "burger-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "original-pepper-mayo-slider",
+      "name": "Original Pepper Mayo Slider",
+      "category": "sliders",
+      "desc": "Original tender, pepper mayo, slider bun",
+      "serve": "1 slider",
+      "nutrition": {
+        "kj": 1276,
+        "p": 14.9,
+        "f": 15.6,
+        "c": 25.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "slider-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "original-bbq-slider",
+      "name": "Original BBQ Slider",
+      "category": "sliders",
+      "desc": "Original tender, smoky BBQ sauce, slider bun",
+      "serve": "1 slider",
+      "nutrition": {
+        "kj": 1163,
+        "p": 14.9,
+        "f": 10.8,
+        "c": 29.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "slider-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "original-supercharged-slider",
+      "name": "Original Supercharged Slider",
+      "category": "sliders",
+      "desc": "Original tender, Supercharged sauce, slider bun",
+      "serve": "1 slider",
+      "nutrition": {
+        "kj": 1232,
+        "p": 14.9,
+        "f": 14.1,
+        "c": 26.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "slider-bun",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "supercharged",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "original-crunch-twister",
+      "name": "Original Crunch Twister",
+      "category": "twisters",
+      "desc": "Original tenders, crunchy slaw, mayo in a tortilla",
+      "serve": "1 twister",
+      "nutrition": {
+        "kj": 2465,
+        "p": 29,
+        "f": 30,
+        "c": 48.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "zinger-crunch-twister",
+      "name": "Zinger Crunch Twister",
+      "category": "twisters",
+      "desc": "Zinger fillet, crunchy slaw, mayo in a tortilla",
+      "serve": "1 twister",
+      "nutrition": {
+        "kj": 2435,
+        "p": 27.4,
+        "f": 27.9,
+        "c": 53.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "tortilla",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "zinger-crunch-bowl",
+      "name": "Zinger Crunch Bowl",
+      "category": "bowls",
+      "desc": "Zinger fillet pieces on slaw and lettuce with sauce",
+      "serve": "1 bowl",
+      "nutrition": {
+        "kj": 1738,
+        "p": 23.2,
+        "f": 23.2,
+        "c": 27.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "original-tenders-crunch-bowl",
+      "name": "Original Tenders Crunch Bowl",
+      "category": "bowls",
+      "desc": "Original tenders on slaw and lettuce with sauce",
+      "serve": "1 bowl",
+      "nutrition": {
+        "kj": 1989,
+        "p": 25.5,
+        "f": 27.8,
+        "c": 29.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "zinger-protein-bowl",
+      "name": "Zinger Protein Bowl",
+      "category": "bowls",
+      "desc": "Two Zinger fillets on salad with sauce",
+      "serve": "1 bowl",
+      "nutrition": {
+        "kj": 2309,
+        "p": 44,
+        "f": 28.9,
+        "c": 27.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "supercharged",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "original-recipe-1-piece",
+      "name": "1 Piece Original Recipe",
+      "category": "chicken",
+      "desc": "One piece of Original Recipe chicken (average)",
+      "serve": "1 piece",
+      "nutrition": {
+        "kj": 984,
+        "p": 20.4,
+        "f": 13.9,
+        "c": 7.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-piece",
+          "d": 1,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "original-recipe-3-pieces",
+      "name": "3 Pieces Original Recipe",
+      "category": "chicken",
+      "desc": "Three pieces of Original Recipe chicken",
+      "serve": "3 pieces",
+      "nutrition": {
+        "kj": 2951,
+        "p": 61.2,
+        "f": 41.8,
+        "c": 21.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-piece",
+          "d": 3,
+          "max": 6
+        }
+      ]
+    },
+    {
+      "id": "original-recipe-6-pieces",
+      "name": "6 Pieces Original Recipe",
+      "category": "chicken",
+      "desc": "Six pieces of Original Recipe chicken",
+      "serve": "6 pieces",
+      "nutrition": {
+        "kj": 5901,
+        "p": 122.5,
+        "f": 83.6,
+        "c": 43.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-piece",
+          "d": 6,
+          "max": 12
+        }
+      ]
+    },
+    {
+      "id": "original-recipe-21-pieces",
+      "name": "21 Pieces Original Recipe",
+      "category": "chicken",
+      "desc": "Bucket of 21 pieces of Original Recipe chicken",
+      "serve": "21 pieces",
+      "nutrition": {
+        "kj": 20664,
+        "p": 428.4,
+        "f": 291.9,
+        "c": 151.2
+      },
+      "confidence": "derived"
+    },
+    {
+      "id": "or-breast",
+      "name": "Original Recipe Breast",
+      "category": "chicken",
+      "desc": "One Original Recipe breast piece",
+      "serve": "1 piece",
+      "nutrition": {
+        "kj": 1920,
+        "p": 35.8,
+        "f": 28.4,
+        "c": 15.4
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "or-thigh",
+      "name": "Original Recipe Thigh",
+      "category": "chicken",
+      "desc": "One Original Recipe thigh piece",
+      "serve": "1 piece",
+      "nutrition": {
+        "kj": 1101,
+        "p": 20.5,
+        "f": 16.3,
+        "c": 8.8
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "or-drumstick",
+      "name": "Original Recipe Drumstick",
+      "category": "chicken",
+      "desc": "One Original Recipe drumstick",
+      "serve": "1 piece",
+      "nutrition": {
+        "kj": 902,
+        "p": 16.8,
+        "f": 13.3,
+        "c": 7.2
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "or-wing",
+      "name": "Original Recipe Wing",
+      "category": "chicken",
+      "desc": "One Original Recipe wing",
+      "serve": "1 piece",
+      "nutrition": {
+        "kj": 562,
+        "p": 10.5,
+        "f": 8.3,
+        "c": 4.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "or-fillet-piece",
+      "name": "Original Crispy Fillet",
+      "category": "chicken",
+      "desc": "One boneless Original Recipe fillet",
+      "serve": "1 fillet",
+      "nutrition": {
+        "kj": 936,
+        "p": 18.9,
+        "f": 11.8,
+        "c": 10.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-fillet",
+          "d": 1,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "zinger-fillet-piece",
+      "name": "Zinger Fillet",
+      "category": "chicken",
+      "desc": "One boneless Zinger fillet",
+      "serve": "1 fillet",
+      "nutrition": {
+        "kj": 936,
+        "p": 20.4,
+        "f": 12,
+        "c": 9.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "zinger-fillet",
+          "d": 1,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "wicked-wings-3",
+      "name": "3 Wicked Wings",
+      "category": "wicked",
+      "desc": "Three hot and spicy wings",
+      "serve": "3 wings",
+      "nutrition": {
+        "kj": 1629,
+        "p": 22.6,
+        "f": 27.3,
+        "c": 13.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "wicked-wings-6",
+      "name": "6 Wicked Wings",
+      "category": "wicked",
+      "desc": "Six hot and spicy wings",
+      "serve": "6 wings",
+      "nutrition": {
+        "kj": 3259,
+        "p": 45.1,
+        "f": 54.5,
+        "c": 27.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "wicked-wings-10",
+      "name": "10 Wicked Wings",
+      "category": "wicked",
+      "desc": "Ten hot and spicy wings",
+      "serve": "10 wings",
+      "nutrition": {
+        "kj": 5431,
+        "p": 75.2,
+        "f": 90.9,
+        "c": 46.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "wicked-boneless-3",
+      "name": "3 Pieces Wicked Boneless",
+      "category": "wicked",
+      "desc": "Three hot and spicy boneless pieces",
+      "serve": "3 pieces",
+      "nutrition": {
+        "kj": 1434,
+        "p": 28.2,
+        "f": 17.3,
+        "c": 18.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "wicked-boneless-6",
+      "name": "6 Pieces Wicked Boneless",
+      "category": "wicked",
+      "desc": "Six hot and spicy boneless pieces",
+      "serve": "6 pieces",
+      "nutrition": {
+        "kj": 2868,
+        "p": 56.4,
+        "f": 34.6,
+        "c": 36.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "original-tenders-3",
+      "name": "3 Original Tenders",
+      "category": "tenders-nuggets",
+      "desc": "Three Original Recipe tenders. Add a dipping sauce below to count it.",
+      "serve": "3 tenders",
+      "nutrition": {
+        "kj": 1689,
+        "p": 34.2,
+        "f": 21.3,
+        "c": 18.6
+      },
+      "confidence": "derived",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 3,
+          "max": 6
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "original-tenders-5",
+      "name": "5 Original Tenders",
+      "category": "tenders-nuggets",
+      "desc": "Five Original Recipe tenders. Comes with 1 dipping sauce: pick yours below to count it.",
+      "serve": "5 tenders",
+      "nutrition": {
+        "kj": 2815,
+        "p": 57,
+        "f": 35.5,
+        "c": 31
+      },
+      "confidence": "derived",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 5,
+          "max": 10
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "nuggets-3",
+      "name": "3 Nuggets",
+      "category": "tenders-nuggets",
+      "desc": "Three chicken nuggets. Add a dipping sauce below to count it.",
+      "serve": "3 nuggets",
+      "nutrition": {
+        "kj": 525,
+        "p": 8,
+        "f": 7.7,
+        "c": 6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 3,
+          "max": 6
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "nuggets-6",
+      "name": "6 Nuggets",
+      "category": "tenders-nuggets",
+      "desc": "Six chicken nuggets. Comes with 1 dipping sauce: pick yours below to count it.",
+      "serve": "6 nuggets",
+      "nutrition": {
+        "kj": 1050,
+        "p": 16.2,
+        "f": 15.6,
+        "c": 12
+      },
+      "confidence": "derived",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 6,
+          "max": 12
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "nuggets-10",
+      "name": "10 Nuggets",
+      "category": "tenders-nuggets",
+      "desc": "Ten chicken nuggets. Comes with 2 dipping sauces: pick yours below to count them.",
+      "serve": "10 nuggets",
+      "nutrition": {
+        "kj": 1750,
+        "p": 27,
+        "f": 26,
+        "c": 20
+      },
+      "confidence": "derived",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 10,
+          "max": 20
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "popcorn-chicken-snack",
+      "name": "Snack Popcorn Chicken",
+      "category": "tenders-nuggets",
+      "desc": "Bite size popcorn chicken",
+      "serve": "Snack",
+      "nutrition": {
+        "kj": 1009,
+        "p": 11.8,
+        "f": 15,
+        "c": 14.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "popcorn-chicken-regular",
+      "name": "Regular Popcorn Chicken",
+      "category": "tenders-nuggets",
+      "desc": "Bite size popcorn chicken",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 1644,
+        "p": 19.3,
+        "f": 24.4,
+        "c": 24.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "popcorn-chicken-maxi",
+      "name": "Maxi Popcorn Chicken",
+      "category": "tenders-nuggets",
+      "desc": "Bite size popcorn chicken",
+      "serve": "Maxi",
+      "nutrition": {
+        "kj": 3014,
+        "p": 35.3,
+        "f": 44.7,
+        "c": 44.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "go-bucket-popcorn",
+      "name": "Go Bucket Popcorn Chicken",
+      "category": "snacks",
+      "desc": "Popcorn chicken and chips in a cup",
+      "serve": "1 Go Bucket",
+      "nutrition": {
+        "kj": 2325,
+        "p": 17.8,
+        "f": 28.4,
+        "c": 57.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "go-bucket-nuggets",
+      "name": "Go Bucket 3 Nuggets",
+      "category": "snacks",
+      "desc": "Three nuggets and chips in a cup",
+      "serve": "1 Go Bucket",
+      "nutrition": {
+        "kj": 1710,
+        "p": 12.5,
+        "f": 19.2,
+        "c": 46.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "go-bucket-tender",
+      "name": "Go Bucket 1 Original Tender",
+      "category": "snacks",
+      "desc": "One Original tender and chips in a cup",
+      "serve": "1 Go Bucket",
+      "nutrition": {
+        "kj": 1748,
+        "p": 15.8,
+        "f": 18.6,
+        "c": 46.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "go-bucket-wicked-wings",
+      "name": "Go Bucket 2 Wicked Wings",
+      "category": "snacks",
+      "desc": "Two Wicked Wings and chips in a cup",
+      "serve": "1 Go Bucket",
+      "nutrition": {
+        "kj": 2272,
+        "p": 19.5,
+        "f": 29.7,
+        "c": 49.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "go-bucket-wicked-boneless",
+      "name": "Go Bucket Wicked Boneless",
+      "category": "snacks",
+      "desc": "Wicked Boneless and chips in a cup",
+      "serve": "1 Go Bucket",
+      "nutrition": {
+        "kj": 1664,
+        "p": 13.8,
+        "f": 17.3,
+        "c": 46.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "zinger-burger-combo",
+      "name": "Zinger Burger Combo",
+      "category": "boxes-combos",
+      "desc": "Zinger Burger, regular chips and regular drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 3067,
+        "p": 30.9,
+        "f": 34,
+        "c": 75.2
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "zinger-burger-box",
+      "name": "Zinger Burger Box",
+      "category": "boxes-combos",
+      "desc": "Zinger Burger, chicken piece, chips, side and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4289,
+        "p": 51.6,
+        "f": 46.4,
+        "c": 99.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "original-burger-box",
+      "name": "Original Recipe Burger Box",
+      "category": "boxes-combos",
+      "desc": "Original Recipe Burger, chicken piece, chips, side and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4318,
+        "p": 51.7,
+        "f": 48.6,
+        "c": 95.8
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "zinger-stacker-box",
+      "name": "Zinger Stacker Burger Box",
+      "category": "boxes-combos",
+      "desc": "Zinger Stacker Burger, chicken piece, chips, side and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 5498,
+        "p": 76.5,
+        "f": 61.3,
+        "c": 113.8
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "three-piece-box",
+      "name": "3 Piece Box",
+      "category": "boxes-combos",
+      "desc": "Three pieces of chicken, chips, side, dinner roll and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4858,
+        "p": 71.8,
+        "f": 56.6,
+        "c": 90.8
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "three-piece-combo",
+      "name": "3 Piece Combo",
+      "category": "boxes-combos",
+      "desc": "Three pieces of chicken, chips and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4142,
+        "p": 65.9,
+        "f": 53.3,
+        "c": 62.3
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "original-tenders-box",
+      "name": "Original Tenders Box",
+      "category": "boxes-combos",
+      "desc": "Original tenders, chips, side and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4272,
+        "p": 44.6,
+        "f": 57.4,
+        "c": 82
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "mega-chicken-box",
+      "name": "Mega Chicken Box",
+      "category": "boxes-combos",
+      "desc": "Chicken pieces, tenders, chips, side and drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 5874,
+        "p": 77.2,
+        "f": 77.2,
+        "c": 100
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "nuggets-10-combo",
+      "name": "10 Nugget Combo",
+      "category": "boxes-combos",
+      "desc": "Ten nuggets, regular chips and regular drink",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 3489,
+        "p": 31.7,
+        "f": 37.9,
+        "c": 91
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "chips-regular",
+      "name": "Regular Chips",
+      "category": "sides",
+      "desc": "Seasoned chips",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 1186,
+        "p": 4.4,
+        "f": 11.5,
+        "c": 40.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "chicken-salt",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "gravy",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "chips-large",
+      "name": "Large Chips",
+      "category": "sides",
+      "desc": "Seasoned chips",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 2371,
+        "p": 8.9,
+        "f": 23,
+        "c": 81.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "chicken-salt",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "gravy",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "potato-gravy-regular",
+      "name": "Regular Potato & Gravy",
+      "category": "sides",
+      "desc": "Mashed potato with gravy",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 267,
+        "p": 1.9,
+        "f": 0.9,
+        "c": 12
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "gravy",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "potato-gravy-large",
+      "name": "Large Potato & Gravy",
+      "category": "sides",
+      "desc": "Mashed potato with gravy",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 1094,
+        "p": 7.7,
+        "f": 3.6,
+        "c": 49.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "gravy",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gravy-regular",
+      "name": "Regular Gravy",
+      "category": "sides",
+      "desc": "Tub of gravy",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 215,
+        "p": 1.8,
+        "f": 1.2,
+        "c": 8.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coleslaw-regular",
+      "name": "Regular Coleslaw",
+      "category": "sides",
+      "desc": "Creamy coleslaw",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 388,
+        "p": 1.1,
+        "f": 3.4,
+        "c": 14.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coleslaw-large",
+      "name": "Large Coleslaw",
+      "category": "sides",
+      "desc": "Creamy coleslaw",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 1588,
+        "p": 4.5,
+        "f": 14,
+        "c": 58.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "crunchy-jalapeno-slaw",
+      "name": "Crunchy Jalapeno Slaw",
+      "category": "sides",
+      "desc": "Slaw with jalapeno and crunchy bits",
+      "serve": "1 serve",
+      "nutrition": {
+        "kj": 802,
+        "p": 2.8,
+        "f": 11.2,
+        "c": 18.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "supercharged-dip",
+      "name": "Supercharged Dipping Sauce",
+      "category": "sauces",
+      "desc": "Spicy creamy dipping sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 415,
+        "p": 0.4,
+        "f": 9.3,
+        "c": 3.9
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "aioli-dip",
+      "name": "Creamy Garlic Dip",
+      "category": "sauces",
+      "desc": "Garlic aioli dipping sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 480,
+        "p": 0.5,
+        "f": 11,
+        "c": 3.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "bbq-dip",
+      "name": "Smoky BBQ Dipping Sauce",
+      "category": "sauces",
+      "desc": "Smoky BBQ dipping sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 222,
+        "p": 0.1,
+        "f": 0,
+        "c": 12.9
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "sweet-chilli-dip",
+      "name": "Sweet Chilli Dipping Sauce",
+      "category": "sauces",
+      "desc": "Sweet chilli dipping sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 257,
+        "p": 0,
+        "f": 0,
+        "c": 15.1
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "sweet-sour-dip",
+      "name": "Sweet and Sour Dipping Sauce",
+      "category": "sauces",
+      "desc": "Sweet and sour dipping sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 286,
+        "p": 0.1,
+        "f": 0.3,
+        "c": 16
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "tomato-dip",
+      "name": "Tomato Dipping Sauce",
+      "category": "sauces",
+      "desc": "Tomato sauce",
+      "serve": "1 tub (25 ml)",
+      "nutrition": {
+        "kj": 151,
+        "p": 0.3,
+        "f": 0,
+        "c": 8.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "chocolate-mousse",
+      "name": "Double Chocolate Mousse",
+      "category": "desserts",
+      "desc": "Chocolate mousse tub",
+      "serve": "1 tub",
+      "nutrition": {
+        "kj": 1490,
+        "p": 2.8,
+        "f": 29.9,
+        "c": 19.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pepsi",
+      "name": "Pepsi",
+      "category": "drinks",
+      "desc": "Soft drink",
+      "serve": "391 ml",
+      "nutrition": {
+        "kj": 434,
+        "p": 0,
+        "f": 0,
+        "c": 27.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pepsi-max",
+      "name": "Pepsi Max",
+      "category": "drinks",
+      "desc": "No sugar soft drink",
+      "serve": "375 ml",
+      "nutrition": {
+        "kj": 6,
+        "p": 0.2,
+        "f": 0,
+        "c": 0.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mountain-dew",
+      "name": "Mountain Dew",
+      "category": "drinks",
+      "desc": "Soft drink",
+      "serve": "392 ml",
+      "nutrition": {
+        "kj": 439,
+        "p": 0,
+        "f": 0,
+        "c": 28.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "solo",
+      "name": "Solo",
+      "category": "drinks",
+      "desc": "Lemon soft drink",
+      "serve": "390 ml",
+      "nutrition": {
+        "kj": 780,
+        "p": 0.2,
+        "f": 0,
+        "c": 44.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "7up",
+      "name": "7Up",
+      "category": "drinks",
+      "desc": "Lemonade soft drink",
+      "serve": "391 ml",
+      "nutrition": {
+        "kj": 695,
+        "p": 0,
+        "f": 0,
+        "c": 42.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sunkist-no-sugar",
+      "name": "Sunkist No Sugar",
+      "category": "drinks",
+      "desc": "No sugar orange soft drink",
+      "serve": "380 ml",
+      "nutrition": {
+        "kj": 8,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pepsi-freeze",
+      "name": "Pepsi Freeze",
+      "category": "drinks",
+      "desc": "Frozen Pepsi slushie",
+      "serve": "362 ml",
+      "nutrition": {
+        "kj": 734,
+        "p": 0,
+        "f": 0,
+        "c": 43
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "raspberry-freeze",
+      "name": "Raspberry Freeze",
+      "category": "drinks",
+      "desc": "Frozen raspberry slushie",
+      "serve": "347 ml",
+      "nutrition": {
+        "kj": 760,
+        "p": 0,
+        "f": 0,
+        "c": 44.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mountain-dew-freeze",
+      "name": "Mountain Dew Freeze",
+      "category": "drinks",
+      "desc": "Frozen Mountain Dew slushie",
+      "serve": "360 ml",
+      "nutrition": {
+        "kj": 782,
+        "p": 0,
+        "f": 0,
+        "c": 46.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "lipton-peach-iced-tea",
+      "name": "Lipton Peach Iced Tea",
+      "category": "drinks",
+      "desc": "Peach iced tea",
+      "serve": "513 ml",
+      "nutrition": {
+        "kj": 395,
+        "p": 0.5,
+        "f": 0.5,
+        "c": 22.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "category": "drinks",
+      "desc": "Apple juice",
+      "serve": "315 ml",
+      "nutrition": {
+        "kj": 589,
+        "p": 0,
+        "f": 0,
+        "c": 34.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "bottled-water",
+      "name": "Bottled Water",
+      "category": "drinks",
+      "desc": "Still water",
+      "serve": "600 ml",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "kids-meal-nuggets",
+      "name": "Kids Meal with Nuggets",
+      "category": "kids",
+      "desc": "Nuggets, small chips, kids drink",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 2159,
+        "p": 15.3,
+        "f": 22.2,
+        "c": 63.7
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "kids-meal-popcorn",
+      "name": "Kids Meal with Snack Popcorn Chicken",
+      "category": "kids",
+      "desc": "Snack popcorn chicken, small chips, kids drink",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 2197,
+        "p": 16.3,
+        "f": 26.5,
+        "c": 55.4
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "1-original-tender",
+      "name": "1 Original Tender",
+      "category": "tenders-nuggets",
+      "desc": "One Original Recipe tender. Add a dipping sauce below to count it.",
+      "serve": "57 g",
+      "nutrition": {
+        "kj": 563,
+        "p": 11.4,
+        "f": 7.1,
+        "c": 6.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "or-tender",
+          "d": 1,
+          "max": 6
+        },
+        {
+          "ref": "dip-sweet-sour",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-bbq",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-supercharged",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-aioli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-sweet-chilli",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "dip-tomato",
+          "d": 0,
+          "max": 3
+        }
+      ]
+    },
+    {
+      "id": "3-original-tenders-dipd",
+      "name": "3 Original Tenders Dip'd",
+      "category": "tenders-nuggets",
+      "desc": "Three Original tenders tossed in sauce, as KFC lists them.",
+      "serve": "224 g",
+      "nutrition": {
+        "kj": 2285,
+        "p": 35,
+        "f": 32.1,
+        "c": 29.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "5-original-tenders-dipd",
+      "name": "5 Original Tenders Dip'd",
+      "category": "tenders-nuggets",
+      "desc": "Five Original tenders tossed in sauce, as KFC lists them.",
+      "serve": "338 g",
+      "nutrition": {
+        "kj": 3410,
+        "p": 57.8,
+        "f": 46.3,
+        "c": 41.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "3-piece-dip-and-crunch-tenders-with-doritos-cheese-supreme",
+      "name": "3 Piece Dip & Crunch Tenders with Doritos Cheese Supreme",
+      "category": "tenders-nuggets",
+      "desc": "Three tenders with Doritos Cheese Supreme crunch.",
+      "serve": "205 g",
+      "nutrition": {
+        "kj": 2493,
+        "p": 35.8,
+        "f": 36.4,
+        "c": 31.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "3-piece-dip-and-crunch-tenders-with-garlic-crunch",
+      "name": "3 Piece Dip & Crunch Tenders with Garlic Crunch",
+      "category": "tenders-nuggets",
+      "desc": "Three tenders with garlic crunch.",
+      "serve": "210 g",
+      "nutrition": {
+        "kj": 2072,
+        "p": 36.3,
+        "f": 22.3,
+        "c": 36.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "3-piece-dip-and-crunch-tenders-with-biscoff-cookie-crumb",
+      "name": "3 Piece Dip & Crunch Tenders with Biscoff Cookie Crumb",
+      "category": "tenders-nuggets",
+      "desc": "Three tenders with Biscoff cookie crumb.",
+      "serve": "205 g",
+      "nutrition": {
+        "kj": 2421,
+        "p": 35.2,
+        "f": 34.7,
+        "c": 31.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "6-piece-dip-and-crunch-tenders-with-doritos-cheese-supreme",
+      "name": "6 Piece Dip & Crunch Tenders with Doritos Cheese Supreme",
+      "category": "tenders-nuggets",
+      "desc": "Six tenders with Doritos Cheese Supreme crunch.",
+      "serve": "410 g",
+      "nutrition": {
+        "kj": 4986,
+        "p": 71.6,
+        "f": 72.8,
+        "c": 62.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "6-piece-dip-and-crunch-tenders-with-garlic-crunch",
+      "name": "6 Piece Dip & Crunch Tenders with Garlic Crunch",
+      "category": "tenders-nuggets",
+      "desc": "Six tenders with garlic crunch.",
+      "serve": "420 g",
+      "nutrition": {
+        "kj": 4143,
+        "p": 72.6,
+        "f": 44.5,
+        "c": 73.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "6-piece-dip-and-crunch-tenders-with-biscoff-cookie-crumb",
+      "name": "6 Piece Dip & Crunch Tenders with Biscoff Cookie Crumb",
+      "category": "tenders-nuggets",
+      "desc": "Six tenders with Biscoff cookie crumb.",
+      "serve": "410 g",
+      "nutrition": {
+        "kj": 4843,
+        "p": 70.5,
+        "f": 69.4,
+        "c": 63.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "zinger-protein-pack-regular",
+      "name": "Zinger Protein Pack - Regular",
+      "category": "bowls",
+      "desc": "Zinger protein pack, regular.",
+      "serve": "695 g",
+      "nutrition": {
+        "kj": 2896,
+        "p": 40.1,
+        "f": 29.9,
+        "c": 63.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "caramel-biscuit-bliss-cup",
+      "name": "Caramel Biscuit Bliss Cup",
+      "category": "desserts",
+      "desc": "Caramel biscuit dessert cup.",
+      "serve": "92 g",
+      "nutrition": {
+        "kj": 1592,
+        "p": 3.4,
+        "f": 29.1,
+        "c": 30.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sparkling-water",
+      "name": "Sparkling Water",
+      "category": "drinks",
+      "desc": "Bottled sparkling water.",
+      "serve": "600 ml",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "solo-energy",
+      "name": "Solo Energy",
+      "category": "drinks",
+      "desc": "Solo Energy can.",
+      "serve": "260 ml",
+      "nutrition": {
+        "kj": 481,
+        "p": 0,
+        "f": 0,
+        "c": 27.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chocolate-krunch-shake",
+      "name": "Chocolate Krunch Shake",
+      "category": "kwench",
+      "desc": "KWENCH chocolate shake.",
+      "serve": "327 ml",
+      "nutrition": {
+        "kj": 2332,
+        "p": 9.9,
+        "f": 14,
+        "c": 92.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "caramel-krunch-shake",
+      "name": "Caramel Krunch Shake",
+      "category": "kwench",
+      "desc": "KWENCH caramel shake.",
+      "serve": "335 ml",
+      "nutrition": {
+        "kj": 2471,
+        "p": 9.6,
+        "f": 17.7,
+        "c": 97.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "strawberry-krunch-shake",
+      "name": "Strawberry Krunch Shake",
+      "category": "kwench",
+      "desc": "KWENCH strawberry shake.",
+      "serve": "338 ml",
+      "nutrition": {
+        "kj": 2509,
+        "p": 10,
+        "f": 16.9,
+        "c": 100.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "fairy-bread-krunch-shake",
+      "name": "Fairy Bread Krunch Shake",
+      "category": "kwench",
+      "desc": "KWENCH fairy bread shake.",
+      "serve": "337 ml",
+      "nutrition": {
+        "kj": 2401,
+        "p": 9.9,
+        "f": 19.3,
+        "c": 89.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "watermelon-boba-refresher",
+      "name": "Watermelon Boba Refresher",
+      "category": "kwench",
+      "desc": "KWENCH boba refresher.",
+      "serve": "479 ml",
+      "nutrition": {
+        "kj": 684,
+        "p": 0.1,
+        "f": 0,
+        "c": 39.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "lychee-boba-refresher",
+      "name": "Lychee Boba Refresher",
+      "category": "kwench",
+      "desc": "KWENCH boba refresher.",
+      "serve": "492 ml",
+      "nutrition": {
+        "kj": 998,
+        "p": 2.6,
+        "f": 0,
+        "c": 57.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "raspberry-solo-energy",
+      "name": "Raspberry Solo Energy",
+      "category": "kwench",
+      "desc": "KWENCH Solo Energy, raspberry.",
+      "serve": "475 ml",
+      "nutrition": {
+        "kj": 877,
+        "p": 0.3,
+        "f": 0.1,
+        "c": 50
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "peach-solo-energy",
+      "name": "Peach Solo Energy",
+      "category": "kwench",
+      "desc": "KWENCH Solo Energy, peach.",
+      "serve": "479 ml",
+      "nutrition": {
+        "kj": 908,
+        "p": 0,
+        "f": 0,
+        "c": 52.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sparkling-raspberry-lemonade",
+      "name": "Sparkling Raspberry Lemonade",
+      "category": "kwench",
+      "desc": "KWENCH sparkling lemonade.",
+      "serve": "453 ml",
+      "nutrition": {
+        "kj": 422,
+        "p": 0.3,
+        "f": 0.1,
+        "c": 22.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sparkling-peach-pop-lemonade",
+      "name": "Sparkling Peach Pop Lemonade",
+      "category": "kwench",
+      "desc": "KWENCH sparkling lemonade.",
+      "serve": "457 ml",
+      "nutrition": {
+        "kj": 453,
+        "p": 0,
+        "f": 0,
+        "c": 25.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "pepsi-frozen-spider",
+      "name": "Pepsi Frozen Spider",
+      "category": "kwench",
+      "desc": "Frozen drink with soft serve.",
+      "serve": "265 ml",
+      "nutrition": {
+        "kj": 956,
+        "p": 3,
+        "f": 4.8,
+        "c": 42.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mountain-dew-frozen-spider",
+      "name": "Mountain Dew Frozen Spider",
+      "category": "kwench",
+      "desc": "Frozen drink with soft serve.",
+      "serve": "278 ml",
+      "nutrition": {
+        "kj": 1018,
+        "p": 3.1,
+        "f": 4.9,
+        "c": 46.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "raspberry-frozen-spider",
+      "name": "Raspberry Frozen Spider",
+      "category": "kwench",
+      "desc": "Frozen drink with soft serve.",
+      "serve": "270 ml",
+      "nutrition": {
+        "kj": 994,
+        "p": 3,
+        "f": 4.8,
+        "c": 44.9
+      },
+      "confidence": "official"
+    }
+  ]
+}

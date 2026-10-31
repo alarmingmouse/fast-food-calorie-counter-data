@@ -1,0 +1,5680 @@
+{
+  "id": "hj",
+  "name": "Hungry Jack's",
+  "nick": "HJ's",
+  "mono": "HJ",
+  "colors": {
+    "brand": "#E8611A",
+    "onBrand": "#FFFFFF",
+    "badge": "#E8611A",
+    "badgeFg": "#FFF4E2"
+  },
+  "sources": [
+    {
+      "url": "https://www.hungryjacks.com.au/nutrition-info",
+      "kind": "web",
+      "title": "Nutrition and allergen information index",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Whopper-Beef-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Whopper and Beef Burgers nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-30-June-2026-Final-Grill-Masters-Nutritionals_1.pdf",
+      "kind": "pdf",
+      "title": "Grill Masters nutritionals (30 Jun 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-28-July-2026-Final-Chicken-Burgers-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Chicken Burgers nutritionals (28 Jul 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Chicken-NutritionalGuideReport_Nutritional-Values-Report-16062026_2.pdf",
+      "kind": "pdf",
+      "title": "Chicken nutritional values (16 Jun 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-23-January-2026-Plant-Based-Veggie-Nutritionals_1.pdf",
+      "kind": "pdf",
+      "title": "Plant Based and Veggie nutritionals (23 Jan 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Breakfast-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Breakfast nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Sides-Snacks-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Sides and Snacks nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-6-January-2026-Final-Kid-s-Meals-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Kid's Meals nutritionals (6 Jan 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Jack-s-Cafe-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Jack's Cafe nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-3-November-2026-Final-Cold-Drinks-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Cold Drinks nutritionals (3 Nov 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-1-September-2026-Final-Jack-d-Up-Drinks-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Jack'd Up Drinks nutritionals (1 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Frozen-Bursties-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Frozen Drinks and Bursties nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-3-November-2026-Final-Desserts-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Desserts nutritionals (3 Nov 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Extra-Condiments-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Extra Condiments nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-What-s-New-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "What's New nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/Upload/HJ/Media/Media/Nutritional-Guide-26-September-2026-Final-Bundle-Meals-Nutritionals.pdf",
+      "kind": "pdf",
+      "title": "Bundle Meals nutritionals (26 Sep 2026)",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/whopper",
+      "kind": "web",
+      "title": "Menu: Whopper and Beef",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/grill-masters-angus",
+      "kind": "web",
+      "title": "Menu: Grill Masters Angus",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/chicken-burgers",
+      "kind": "web",
+      "title": "Menu: Chicken Burgers",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/chicken-sides",
+      "kind": "web",
+      "title": "Menu: Chicken",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/veggie-range",
+      "kind": "web",
+      "title": "Menu: Veggie Range",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/breakfast",
+      "kind": "web",
+      "title": "Menu: Breakfast",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/sides-snacks",
+      "kind": "web",
+      "title": "Menu: Sides and Snacks",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/kids",
+      "kind": "web",
+      "title": "Menu: Kids",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/jack-s-cafe",
+      "kind": "web",
+      "title": "Menu: Jack's Cafe",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/cold-drinks",
+      "kind": "web",
+      "title": "Menu: Cold Drinks and Jack'd Up Drinks",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/frozen-drinks",
+      "kind": "web",
+      "title": "Menu: Frozen and Bursties",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/desserts",
+      "kind": "web",
+      "title": "Menu: Desserts",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/krispy-kreme",
+      "kind": "web",
+      "title": "Menu: Krispy Kreme",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://app.hungryjacks.com.au/menu/what-s-new/cowboy-whopper",
+      "kind": "web",
+      "title": "Cowboy Whopper product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/whopper-sup-sup-beef/double-cowboy-whopper",
+      "kind": "web",
+      "title": "Double Cowboy Whopper product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/grill-masters-angus/grill-masters-cowboy-angus-en",
+      "kind": "web",
+      "title": "Grill Masters Cowboy Angus product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/grill-masters-angus/double-grill-masters-cowboy-angus",
+      "kind": "web",
+      "title": "Double Grill Masters Cowboy Angus product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/chicken-burgers/grilled-chicken-with-bacon-cheese",
+      "kind": "web",
+      "title": "Grilled Chicken with Bacon and Cheese product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/sides-snacks/18-nuggets-sauces",
+      "kind": "web",
+      "title": "18 Nuggets and Sauces product page",
+      "checked": "2026-10-31"
+    },
+    {
+      "url": "https://www.hungryjacks.com.au/menu/jack-s-cafe/flat-white",
+      "kind": "web",
+      "title": "Jack's Cafe product pages (Flat White, Latte, Long Black, Mocha, Hot Chocolate, Iced Coffee, Iced Chocolate, Iced Mocha, Caramel Fudge Iced Coffee, Dirty Chai Latte)",
+      "checked": "2026-10-31"
+    }
+  ],
+  "lastChecked": "2026-10-31",
+  "categories": [
+    {
+      "id": "whopper-beef",
+      "name": "Whopper & Beef"
+    },
+    {
+      "id": "grill-masters",
+      "name": "Grill Masters Angus"
+    },
+    {
+      "id": "chicken-burgers",
+      "name": "Chicken Burgers"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken"
+    },
+    {
+      "id": "veggie",
+      "name": "Veggie Range"
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast"
+    },
+    {
+      "id": "sides",
+      "name": "Sides & Snacks"
+    },
+    {
+      "id": "kids",
+      "name": "Kids"
+    },
+    {
+      "id": "cafe",
+      "name": "Jack's Cafe"
+    },
+    {
+      "id": "cold-drinks",
+      "name": "Cold Drinks"
+    },
+    {
+      "id": "jackd-up",
+      "name": "Jack'd Up Drinks"
+    },
+    {
+      "id": "frozen",
+      "name": "Frozen & Bursties"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "krispy-kreme",
+      "name": "Krispy Kreme"
+    }
+  ],
+  "components": {
+    "whopper-patty": {
+      "name": "Whopper beef patty",
+      "type": "protein",
+      "kj": 1106,
+      "p": 19.3,
+      "f": 21.1,
+      "c": 0
+    },
+    "junior-patty": {
+      "name": "Regular beef patty (Junior, cheeseburger)",
+      "type": "protein",
+      "kj": 476,
+      "p": 8.3,
+      "f": 9.1,
+      "c": 0
+    },
+    "angus-patty": {
+      "name": "Grill Masters Angus patty",
+      "type": "protein",
+      "kj": 1765,
+      "p": 33.4,
+      "f": 32.4,
+      "c": 0.8
+    },
+    "grilled-chicken": {
+      "name": "Grilled chicken fillet",
+      "type": "protein",
+      "kj": 480,
+      "p": 18,
+      "f": 3.4,
+      "c": 1
+    },
+    "crispy-chicken": {
+      "name": "Jack's Fried Chicken fillet",
+      "type": "protein",
+      "kj": 1500,
+      "p": 28,
+      "f": 20,
+      "c": 15
+    },
+    "nugget": {
+      "name": "Chicken nugget",
+      "type": "protein",
+      "kj": 182,
+      "p": 2.5,
+      "f": 2.1,
+      "c": 3.6
+    },
+    "egg": {
+      "name": "Egg",
+      "type": "protein",
+      "kj": 300,
+      "p": 6.5,
+      "f": 5,
+      "c": 0.3
+    },
+    "sausage": {
+      "name": "Sausage patty",
+      "type": "protein",
+      "kj": 503,
+      "p": 10.1,
+      "f": 9,
+      "c": 0.3
+    },
+    "cheese": {
+      "name": "Cheese slice",
+      "type": "cb",
+      "kj": 155,
+      "p": 2.3,
+      "f": 2.9,
+      "c": 0.4
+    },
+    "bacon": {
+      "name": "Bacon",
+      "type": "cb",
+      "kj": 128,
+      "p": 3.3,
+      "f": 1.9,
+      "c": 0.3
+    },
+    "mayo": {
+      "name": "Mayo (burger serve)",
+      "type": "sauce",
+      "kj": 440,
+      "p": 0.2,
+      "f": 11.6,
+      "c": 0.5
+    },
+    "tomato-sauce": {
+      "name": "Tomato sauce (burger serve)",
+      "type": "sauce",
+      "kj": 52,
+      "p": 0.1,
+      "f": 0,
+      "c": 2.8
+    },
+    "bbq-sauce": {
+      "name": "BBQ sauce (burger serve)",
+      "type": "sauce",
+      "kj": 102,
+      "p": 0.2,
+      "f": 0.2,
+      "c": 5.7
+    },
+    "aioli-tub": {
+      "name": "Creamy garlic aioli tub",
+      "type": "sauce",
+      "kj": 488,
+      "p": 0.5,
+      "f": 12.1,
+      "c": 2
+    },
+    "bbq-tub": {
+      "name": "BBQ plum sauce tub",
+      "type": "sauce",
+      "kj": 258,
+      "p": 0.3,
+      "f": 0.3,
+      "c": 14.2
+    },
+    "spicy-tub": {
+      "name": "Spicy sauce tub",
+      "type": "sauce",
+      "kj": 533,
+      "p": 0.5,
+      "f": 13.5,
+      "c": 1.4
+    },
+    "sweet-sour-tub": {
+      "name": "Sweet 'n' sour sauce tub",
+      "type": "sauce",
+      "kj": 177,
+      "p": 0.3,
+      "f": 0.3,
+      "c": 10.1
+    },
+    "tomato-sachet": {
+      "name": "Tomato sauce sachet",
+      "type": "sauce",
+      "kj": 103,
+      "p": 0.2,
+      "f": 0,
+      "c": 5.5
+    },
+    "heavy-mayo": {
+      "name": "Heavy mayo (extra serve)",
+      "type": "extra",
+      "kj": 440,
+      "p": 0.2,
+      "f": 11.6,
+      "c": 0.5
+    },
+    "cheese-dip": {
+      "name": "Cheese sauce dipping cup",
+      "type": "extra",
+      "kj": 740,
+      "p": 11,
+      "f": 14.1,
+      "c": 2.5
+    },
+    "hash-brown": {
+      "name": "Hash brown",
+      "type": "extra",
+      "kj": 685,
+      "p": 1.4,
+      "f": 11,
+      "c": 15.2
+    },
+    "bursties": {
+      "name": "Bursties add on",
+      "type": "extra",
+      "kj": 40,
+      "p": 0,
+      "f": 0,
+      "c": 10
+    },
+    "choc-sauce": {
+      "name": "Chocolate sundae sauce add on",
+      "type": "extra",
+      "kj": 133,
+      "p": 0.4,
+      "f": 0.7,
+      "c": 6
+    },
+    "caramel-sauce": {
+      "name": "Caramel sundae sauce add on",
+      "type": "extra",
+      "kj": 156,
+      "p": 0.4,
+      "f": 0.9,
+      "c": 7
+    },
+    "strawberry-sauce": {
+      "name": "Strawberry sundae sauce add on",
+      "type": "extra",
+      "kj": 82,
+      "p": 0.2,
+      "f": 0.2,
+      "c": 4.8
+    },
+    "biscoff-crumb": {
+      "name": "Biscoff crumb add on",
+      "type": "extra",
+      "kj": 304,
+      "p": 0.8,
+      "f": 2.9,
+      "c": 10.9
+    },
+    "biscoff-sauce": {
+      "name": "Biscoff sauce add on",
+      "type": "extra",
+      "kj": 279,
+      "p": 0.3,
+      "f": 5.6,
+      "c": 4
+    },
+    "bun-whopper": {
+      "name": "Whopper sesame bun",
+      "type": "bun",
+      "kj": 830,
+      "p": 7,
+      "f": 3,
+      "c": 40
+    },
+    "bun-regular": {
+      "name": "Regular sesame bun",
+      "type": "bun",
+      "kj": 520,
+      "p": 4.5,
+      "f": 2,
+      "c": 25
+    },
+    "bun-brioche": {
+      "name": "Brioche bun",
+      "type": "bun",
+      "kj": 720,
+      "p": 6,
+      "f": 5,
+      "c": 30
+    },
+    "onion": {
+      "name": "Onion",
+      "type": "veg",
+      "kj": 8,
+      "p": 0.1,
+      "f": 0,
+      "c": 0.4
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "type": "veg",
+      "kj": 3,
+      "p": 0.1,
+      "f": 0,
+      "c": 0.1
+    },
+    "tomato": {
+      "name": "Tomato",
+      "type": "veg",
+      "kj": 10,
+      "p": 0.1,
+      "f": 0,
+      "c": 0.4
+    },
+    "pickles": {
+      "name": "Pickles",
+      "type": "veg",
+      "kj": 4,
+      "p": 0,
+      "f": 0,
+      "c": 0.2
+    }
+  },
+  "items": [
+    {
+      "id": "whopper",
+      "name": "Whopper",
+      "category": "whopper-beef",
+      "desc": "Flame grilled beef, lettuce, tomato, onion, pickles, mayo, tomato sauce, sesame bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2437,
+        "p": 28.1,
+        "f": 45.2,
+        "c": 46.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "whopper-cheese",
+      "name": "Whopper Cheese",
+      "category": "whopper-beef",
+      "desc": "Whopper with two slices of cheese",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2747,
+        "p": 32.7,
+        "f": 51,
+        "c": 47.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-whopper",
+      "name": "Double Whopper",
+      "category": "whopper-beef",
+      "desc": "Two Whopper patties with the classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3543,
+        "p": 47.4,
+        "f": 66.3,
+        "c": 46.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-whopper-cheese",
+      "name": "Double Whopper Cheese",
+      "category": "whopper-beef",
+      "desc": "Two Whopper patties, cheese and classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4152,
+        "p": 56.4,
+        "f": 78,
+        "c": 47.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 4,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "triple-whopper-cheese",
+      "name": "Triple Whopper Cheese",
+      "category": "whopper-beef",
+      "desc": "Three Whopper patties, cheese and classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 5568,
+        "p": 80.3,
+        "f": 105,
+        "c": 48.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 3,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 6,
+          "max": 6
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "ultimate-double-whopper",
+      "name": "Ultimate Double Whopper",
+      "category": "whopper-beef",
+      "desc": "Two Whopper patties, cheese, bacon, salad, mayo and tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4401,
+        "p": 62.9,
+        "f": 80.8,
+        "c": 48.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "angry-whopper",
+      "name": "Angry Whopper",
+      "category": "whopper-beef",
+      "desc": "Whopper patty, cheese, bacon, jalapenos, onion rings and angry sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3048,
+        "p": 33.9,
+        "f": 55.9,
+        "c": 52.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cowboy-whopper",
+      "name": "Cowboy Whopper",
+      "category": "whopper-beef",
+      "desc": "Whopper patty, cheese, double bacon, onion rings, smoky BBQ sauce, mustard, pickles, salad and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3481,
+        "p": 40.2,
+        "f": 62,
+        "c": 58.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-cowboy-whopper",
+      "name": "Double Cowboy Whopper",
+      "category": "whopper-beef",
+      "desc": "Two Whopper patties, cheese, double bacon, onion rings, smoky BBQ sauce, mustard, pickles, salad and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4897,
+        "p": 64.1,
+        "f": 89,
+        "c": 59
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheese-lovers-whopper",
+      "name": "Cheese Lovers Whopper",
+      "category": "whopper-beef",
+      "desc": "Whopper patty loaded with cheese, cheese sauce and salad",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3540,
+        "p": 41.6,
+        "f": 55.4,
+        "c": 45.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-cheese-lovers-whopper",
+      "name": "Double Cheese Lovers Whopper",
+      "category": "whopper-beef",
+      "desc": "Two Whopper patties loaded with cheese, cheese sauce and salad",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4956,
+        "p": 65.5,
+        "f": 82.4,
+        "c": 46.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "whopper-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 4,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "big-jack",
+      "name": "Big Jack",
+      "category": "whopper-beef",
+      "desc": "Beef patty, Big Jack sauce, cheese, lettuce, onion and pickles in a three part bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2334,
+        "p": 25.6,
+        "f": 35,
+        "c": 35.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-big-jack",
+      "name": "Double Big Jack",
+      "category": "whopper-beef",
+      "desc": "Big Jack with extra beef",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3441,
+        "p": 44.5,
+        "f": 56,
+        "c": 35.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "big-jack-angus",
+      "name": "Big Jack Angus",
+      "category": "whopper-beef",
+      "desc": "Big Jack built with Angus beef",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4286,
+        "p": 65.8,
+        "f": 68.9,
+        "c": 36.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "bacon-deluxe",
+      "name": "Bacon Deluxe",
+      "category": "whopper-beef",
+      "desc": "Two beef patties, cheese, bacon, salad and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2142,
+        "p": 29.7,
+        "f": 38.7,
+        "c": 27.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "whopper-junior",
+      "name": "Whopper Junior",
+      "category": "whopper-beef",
+      "desc": "Beef patty, tomato, lettuce, onion, pickles, mayo, tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1389,
+        "p": 14.3,
+        "f": 23.9,
+        "c": 29.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "whopper-junior-cheese",
+      "name": "Whopper Junior Cheese",
+      "category": "whopper-beef",
+      "desc": "Whopper Junior with cheese",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1431,
+        "p": 16,
+        "f": 24.8,
+        "c": 28.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheeseburger",
+      "name": "Cheeseburger",
+      "category": "whopper-beef",
+      "desc": "Beef patty, cheese, pickles, onion, mustard, tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1347,
+        "p": 15.8,
+        "f": 16,
+        "c": 28.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-cheeseburger",
+      "name": "Double Cheeseburger",
+      "category": "whopper-beef",
+      "desc": "Two beef patties, cheese, pickles, onion, mustard, tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1978,
+        "p": 26.4,
+        "f": 28,
+        "c": 28.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "triple-cheeseburger",
+      "name": "Triple Cheeseburger",
+      "category": "whopper-beef",
+      "desc": "Three beef patties, cheese, pickles, onion, mustard, tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2609,
+        "p": 37,
+        "f": 40,
+        "c": 29.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 3,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 3,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "bbq-cheeseburger",
+      "name": "BBQ Cheeseburger",
+      "category": "whopper-beef",
+      "desc": "Beef patty, cheese, BBQ sauce, onion and pickles",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1415,
+        "p": 15.8,
+        "f": 24.9,
+        "c": 28.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "hamburger",
+      "name": "Hamburger",
+      "category": "whopper-beef",
+      "desc": "Beef patty, pickles, onion, mustard, tomato sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1192,
+        "p": 13.5,
+        "f": 13.1,
+        "c": 27.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "cheesy-cheeseburger",
+      "name": "Cheesy Cheeseburger",
+      "category": "whopper-beef",
+      "desc": "Beef patty with extra cheese and cheese sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1481,
+        "p": 17.4,
+        "f": 26.9,
+        "c": 26.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "junior-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-cowboy-angus",
+      "name": "Grill Masters Cowboy Angus",
+      "category": "grill-masters",
+      "desc": "Angus patty, double bacon, cheese, BBQ sauce, mustard, onion rings, salad and mayo, brioche bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3398,
+        "p": 46.4,
+        "f": 53.3,
+        "c": 37.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-double-cowboy-angus",
+      "name": "Double Grill Masters Cowboy Angus",
+      "category": "grill-masters",
+      "desc": "Two Angus patties, double bacon, cheese, BBQ sauce, mustard, onion rings, salad and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 5163,
+        "p": 79.8,
+        "f": 85.6,
+        "c": 38.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-smoky-chipotle",
+      "name": "Grill Masters Smoky Chipotle Angus",
+      "category": "grill-masters",
+      "desc": "Angus patty with smoky chipotle sauce, cheese and salad on brioche",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3213,
+        "p": 45.7,
+        "f": 52.4,
+        "c": 29.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-double-smoky-chipotle",
+      "name": "Double Grill Masters Smoky Chipotle Angus",
+      "category": "grill-masters",
+      "desc": "Two Angus patties with smoky chipotle sauce, cheese and salad",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 4978,
+        "p": 79.2,
+        "f": 84.8,
+        "c": 30.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-spicy-chipotle",
+      "name": "Grill Masters Spicy Chipotle Angus",
+      "category": "grill-masters",
+      "desc": "Angus patty with spicy chipotle sauce, cheese and salad on brioche",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3365,
+        "p": 46,
+        "f": 54.4,
+        "c": 33.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-double-spicy-chipotle",
+      "name": "Double Grill Masters Spicy Chipotle Angus",
+      "category": "grill-masters",
+      "desc": "Two Angus patties with spicy chipotle sauce, cheese and salad",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 5130,
+        "p": 79.5,
+        "f": 86.7,
+        "c": 34.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-chicago",
+      "name": "Grill Masters Chicago Angus",
+      "category": "grill-masters",
+      "desc": "Angus patty, cheese, pickles, onion and Chicago style sauce on brioche",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3329,
+        "p": 45.7,
+        "f": 55.4,
+        "c": 29.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-double-chicago",
+      "name": "Grill Masters Double Chicago Angus",
+      "category": "grill-masters",
+      "desc": "Two Angus patties, cheese, pickles, onion and Chicago style sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3644,
+        "p": 50.7,
+        "f": 61.7,
+        "c": 30
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-angus-bacon-cheese",
+      "name": "Grill Masters Angus, Bacon & Cheese",
+      "category": "grill-masters",
+      "desc": "Angus patty, bacon, cheese, salad and mayo on brioche",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3390,
+        "p": 50.8,
+        "f": 54.5,
+        "c": 31.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "gm-double-angus-bacon-cheese",
+      "name": "Grill Masters Double Angus, Bacon & Cheese",
+      "category": "grill-masters",
+      "desc": "Two Angus patties, bacon, cheese, salad and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 5468,
+        "p": 89.3,
+        "f": 93.1,
+        "c": 32.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "angus-patty",
+          "d": 2,
+          "max": 5
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 4
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-brioche",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "jfc-classic",
+      "name": "Classic Jack's Fried Chicken",
+      "category": "chicken-burgers",
+      "desc": "Southern style fried chicken fillet, lettuce and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2843,
+        "p": 36.1,
+        "f": 48.3,
+        "c": 55.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "jfc-spicy",
+      "name": "Spicy Jack's Fried Chicken",
+      "category": "chicken-burgers",
+      "desc": "Spicy fried chicken fillet, lettuce and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3025,
+        "p": 36.1,
+        "f": 38.9,
+        "c": 56.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "jfc-cheesy-bacon",
+      "name": "Cheesy Bacon Classic Jack's Fried Chicken",
+      "category": "chicken-burgers",
+      "desc": "Fried chicken fillet with cheese, bacon, lettuce and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3126,
+        "p": 41.7,
+        "f": 53.1,
+        "c": 55.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "jfc-spicy-cheesy-bacon",
+      "name": "Cheesy Bacon Spicy Jack's Fried Chicken",
+      "category": "chicken-burgers",
+      "desc": "Spicy fried chicken fillet with cheese, bacon, lettuce and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 3307,
+        "p": 41.6,
+        "f": 43.6,
+        "c": 56.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "crispy-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "grilled-chicken",
+      "name": "Grilled Chicken",
+      "category": "chicken-burgers",
+      "desc": "Flame grilled chicken breast fillet, lettuce, tomato and mayo",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1465,
+        "p": 22.4,
+        "f": 17,
+        "c": 26.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "grilled-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "spicy-grilled-chicken",
+      "name": "Spicy Grilled Chicken",
+      "category": "chicken-burgers",
+      "desc": "Flame grilled chicken fillet with spicy sauce and salad",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1388,
+        "p": 22.4,
+        "f": 14.5,
+        "c": 27.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "grilled-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "grilled-chicken-bacon-cheese",
+      "name": "Grilled Chicken with Bacon & Cheese",
+      "category": "chicken-burgers",
+      "desc": "Grilled chicken fillet, cheese, bacon, salad and ranch",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1748,
+        "p": 28,
+        "f": 21.7,
+        "c": 27.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "grilled-chicken",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "bun-regular",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "chicken-royale",
+      "name": "Chicken Royale",
+      "category": "chicken-burgers",
+      "desc": "Crumbed chicken patty, lettuce and mayo on a long sesame bun",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 1404,
+        "p": 11.5,
+        "f": 27.2,
+        "c": 41.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "snack-wrap-pepper",
+      "name": "Creamy Pepper Tender Snack Wrap",
+      "category": "chicken",
+      "desc": "Chicken tender, creamy peppercorn sauce, lettuce, tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 1149,
+        "p": 9.8,
+        "f": 16.5,
+        "c": 21.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "snack-wrap-spicy",
+      "name": "Spicy Tender Snack Wrap",
+      "category": "chicken",
+      "desc": "Chicken tender, spicy sauce, lettuce, tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 1091,
+        "p": 9.8,
+        "f": 14.9,
+        "c": 21.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "snack-wrap-bbq",
+      "name": "Smoky BBQ Tender Snack Wrap",
+      "category": "chicken",
+      "desc": "Chicken tender, smoky BBQ sauce, lettuce, tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 993,
+        "p": 9.8,
+        "f": 10.8,
+        "c": 25
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "korean-bbq-tenders-3",
+      "name": "3 Korean BBQ Saucy Tenders",
+      "category": "chicken",
+      "desc": "Three fried chicken tenders tossed in Korean BBQ sauce",
+      "serve": "3 tenders",
+      "nutrition": {
+        "kj": 2268,
+        "p": 24.2,
+        "f": 26.2,
+        "c": 51.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "korean-bbq-tenders-5",
+      "name": "5 Korean BBQ Saucy Tenders",
+      "category": "chicken",
+      "desc": "Five fried chicken tenders tossed in Korean BBQ sauce",
+      "serve": "5 tenders",
+      "nutrition": {
+        "kj": 3780,
+        "p": 40.3,
+        "f": 43.6,
+        "c": 85.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "southern-tenders-3",
+      "name": "3 Jack's Fried Chicken Southern Style Tenders",
+      "category": "chicken",
+      "desc": "Three southern style chicken tenders",
+      "serve": "3 tenders",
+      "nutrition": {
+        "kj": 2393,
+        "p": 23.7,
+        "f": 39,
+        "c": 31.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "southern-tenders-5",
+      "name": "5 Jack's Fried Chicken Southern Style Tenders",
+      "category": "chicken",
+      "desc": "Five southern style chicken tenders",
+      "serve": "5 tenders",
+      "nutrition": {
+        "kj": 3633,
+        "p": 39.2,
+        "f": 56,
+        "c": 51.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "veggie-whopper-cheese",
+      "name": "Veggie Whopper Cheese",
+      "category": "veggie",
+      "desc": "Veggie patty, cheese and classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2277,
+        "p": 17.6,
+        "f": 37.5,
+        "c": 61.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "double-veggie-whopper-cheese",
+      "name": "Double Veggie Whopper Cheese",
+      "category": "veggie",
+      "desc": "Two veggie patties, cheese and classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2900,
+        "p": 21.5,
+        "f": 45.4,
+        "c": 76.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "angry-veggie-whopper-cheese",
+      "name": "Angry Veggie Whopper Cheese",
+      "category": "veggie",
+      "desc": "Veggie patty, cheese, jalapenos, onion rings and angry sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2586,
+        "p": 18.5,
+        "f": 42.7,
+        "c": 68.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "plant-based-whopper",
+      "name": "Plant Based Whopper",
+      "category": "veggie",
+      "desc": "Plant based patty with classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2317,
+        "p": 24.6,
+        "f": 40.7,
+        "c": 49.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "plant-based-whopper-cheese",
+      "name": "Plant Based Whopper Cheese",
+      "category": "veggie",
+      "desc": "Plant based patty, cheese and classic Whopper fillings",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2630,
+        "p": 29.6,
+        "f": 47,
+        "c": 50
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "plant-based-angry-whopper",
+      "name": "Plant Based Angry Whopper",
+      "category": "veggie",
+      "desc": "Plant based patty, cheese, jalapenos, onion rings and angry sauce",
+      "serve": "1 burger",
+      "nutrition": {
+        "kj": 2935,
+        "p": 30.4,
+        "f": 52.2,
+        "c": 56
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "mayo",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "heavy-mayo",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bun-whopper",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "onion",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "lettuce",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "pickles",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "eggs-benny-wrap",
+      "name": "Eggs Benny Brekky Wrap",
+      "category": "breakfast",
+      "desc": "Egg, bacon, cheese and hollandaise style sauce in a toasted tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2624,
+        "p": 32.3,
+        "f": 42.3,
+        "c": 29.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "eggs-benny-roll",
+      "name": "Eggs Benny Brekky Roll",
+      "category": "breakfast",
+      "desc": "Egg, bacon, cheese and hollandaise style sauce on a Turkish roll",
+      "serve": "1 roll",
+      "nutrition": {
+        "kj": 2694,
+        "p": 30.7,
+        "f": 43.1,
+        "c": 33.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "bbq-brekky-wrap",
+      "name": "BBQ Brekky Wrap",
+      "category": "breakfast",
+      "desc": "Egg, sausage patty, bacon, cheese and BBQ sauce in a toasted tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 1857,
+        "p": 28.7,
+        "f": 23.9,
+        "c": 28.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "big-bbq-brekky-wrap",
+      "name": "Big BBQ Brekky Wrap",
+      "category": "breakfast",
+      "desc": "Egg, sausage, bacon, cheese, hash brown and BBQ sauce in a tortilla",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 2602,
+        "p": 28.4,
+        "f": 35.1,
+        "c": 48.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "mega-bbq-brekky-wrap",
+      "name": "Mega BBQ Brekky Wrap",
+      "category": "breakfast",
+      "desc": "Beef and sausage patties, double bacon, double cheese, egg, hash brown, smoky BBQ sauce",
+      "serve": "1 wrap",
+      "nutrition": {
+        "kj": 4027,
+        "p": 55,
+        "f": 61.8,
+        "c": 48.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 2,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 2,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "french-toast-4",
+      "name": "4x French Toast Fingers",
+      "category": "breakfast",
+      "desc": "Four French toast fingers",
+      "serve": "4 fingers",
+      "nutrition": {
+        "kj": 1852,
+        "p": 1.9,
+        "f": 15.4,
+        "c": 74.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "french-toast-6",
+      "name": "6x French Toast Fingers",
+      "category": "breakfast",
+      "desc": "Six French toast fingers",
+      "serve": "6 fingers",
+      "nutrition": {
+        "kj": 2584,
+        "p": 2.7,
+        "f": 22.9,
+        "c": 101
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "jacks-brekky-roll",
+      "name": "Jack's Brekky Roll",
+      "category": "breakfast",
+      "desc": "Sausage, bacon, egg, cheese and BBQ sauce on a roll",
+      "serve": "1 roll",
+      "nutrition": {
+        "kj": 2477,
+        "p": 34.7,
+        "f": 36.9,
+        "c": 30.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "bacon-egg-turkish",
+      "name": "Bacon & Egg Turkish Brekky Roll",
+      "category": "breakfast",
+      "desc": "Bacon, egg, cheese and BBQ sauce on a toasted Turkish roll",
+      "serve": "1 roll",
+      "nutrition": {
+        "kj": 929,
+        "p": 13.3,
+        "f": 17,
+        "c": 4.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "bacon",
+          "d": 1,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sausage-egg-turkish",
+      "name": "Sausage & Egg Turkish Brekky Roll",
+      "category": "breakfast",
+      "desc": "Sausage patty, egg, cheese and BBQ sauce on a toasted Turkish roll",
+      "serve": "1 roll",
+      "nutrition": {
+        "kj": 2045,
+        "p": 26.6,
+        "f": 25.9,
+        "c": 36.4
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "egg",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "sausage",
+          "d": 1,
+          "max": 4
+        },
+        {
+          "ref": "bacon",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "bbq-sauce",
+          "d": 1,
+          "max": 1
+        },
+        {
+          "ref": "hash-brown",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "hash-brown-item",
+      "name": "Hash Brown",
+      "category": "breakfast",
+      "desc": "Golden potato hash brown",
+      "serve": "1 hash brown",
+      "nutrition": {
+        "kj": 685,
+        "p": 1.4,
+        "f": 11,
+        "c": 15.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "ham-cheese-toastie",
+      "name": "Ham & Cheese Toastie",
+      "category": "breakfast",
+      "desc": "Toasted ham and cheese",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1201,
+        "p": 15.5,
+        "f": 12.1,
+        "c": 27.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "ham-cheese-tomato-toastie",
+      "name": "Ham Cheese & Tomato Toastie",
+      "category": "breakfast",
+      "desc": "Toasted ham, cheese and tomato",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1222,
+        "p": 15.5,
+        "f": 12.1,
+        "c": 28.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "cheese-toastie",
+      "name": "Cheese Toastie",
+      "category": "breakfast",
+      "desc": "Toasted cheese",
+      "serve": "1 toastie",
+      "nutrition": {
+        "kj": 1087,
+        "p": 11.3,
+        "f": 11.1,
+        "c": 27
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chips-small",
+      "name": "Thick Cut Chips (Small)",
+      "category": "sides",
+      "desc": "Thick cut chips",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1063,
+        "p": 3.1,
+        "f": 11.8,
+        "c": 33.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese-dip",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "chips-medium",
+      "name": "Thick Cut Chips (Medium)",
+      "category": "sides",
+      "desc": "Thick cut chips",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1289,
+        "p": 3.8,
+        "f": 14.3,
+        "c": 41.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese-dip",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "chips-large",
+      "name": "Thick Cut Chips (Large)",
+      "category": "sides",
+      "desc": "Thick cut chips",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 1843,
+        "p": 5.4,
+        "f": 20.4,
+        "c": 58.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese-dip",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "onion-rings-medium",
+      "name": "Battered Onion Rings (Medium)",
+      "category": "sides",
+      "desc": "Battered onion rings",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1196,
+        "p": 2.6,
+        "f": 20.4,
+        "c": 23.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese-dip",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "onion-rings-large",
+      "name": "Battered Onion Rings (Large)",
+      "category": "sides",
+      "desc": "Battered onion rings",
+      "serve": "Large",
+      "nutrition": {
+        "kj": 1794,
+        "p": 3.9,
+        "f": 30.6,
+        "c": 35.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "tomato-sachet",
+          "d": 0,
+          "max": 3
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "cheese-dip",
+          "d": 0,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "id": "nuggets-3",
+      "name": "3 Nuggets & Sauce",
+      "category": "sides",
+      "desc": "Chicken breast nuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "3 nuggets",
+      "nutrition": {
+        "kj": 546,
+        "p": 7.4,
+        "f": 6.4,
+        "c": 10.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 3,
+          "max": 9
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nuggets-6",
+      "name": "6 Nuggets & Sauce",
+      "category": "sides",
+      "desc": "Chicken breast nuggets. Comes with dipping sauce: pick yours below to count it.",
+      "serve": "6 nuggets",
+      "nutrition": {
+        "kj": 1092,
+        "p": 14.8,
+        "f": 12.7,
+        "c": 21.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 6,
+          "max": 12
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nuggets-12",
+      "name": "12 Nuggets & Sauces",
+      "category": "sides",
+      "desc": "Chicken breast nuggets. Comes with dipping sauces: pick them below to count them.",
+      "serve": "12 nuggets",
+      "nutrition": {
+        "kj": 2183,
+        "p": 29.6,
+        "f": 25.3,
+        "c": 42.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 12,
+          "max": 18
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nuggets-18",
+      "name": "18 Nuggets & Sauces",
+      "category": "sides",
+      "desc": "Chicken breast nuggets. Comes with dipping sauces: pick them below to count them.",
+      "serve": "18 nuggets",
+      "nutrition": {
+        "kj": 3210,
+        "p": 42,
+        "f": 39.6,
+        "c": 61.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 18,
+          "max": 24
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "nugget-snack-box",
+      "name": "6 Nuggets & Large Chips Snack Box",
+      "category": "sides",
+      "desc": "Six nuggets with large thick cut chips",
+      "serve": "1 box",
+      "nutrition": {
+        "kj": 2938,
+        "p": 20.2,
+        "f": 33.1,
+        "c": 80.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 6,
+          "max": 12
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "kids-hamburger",
+      "name": "Hamburger Kid's Pack",
+      "category": "kids",
+      "desc": "Hamburger, kids side salad and water",
+      "serve": "1 pack",
+      "nutrition": {
+        "kj": 1171,
+        "p": 13.5,
+        "f": 11.9,
+        "c": 29.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 0,
+          "max": 1
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "kids-cheeseburger",
+      "name": "Cheeseburger Kid's Pack",
+      "category": "kids",
+      "desc": "Cheeseburger, small chips and water",
+      "serve": "1 pack",
+      "nutrition": {
+        "kj": 2359,
+        "p": 18.6,
+        "f": 26.5,
+        "c": 62.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "cheese",
+          "d": 1,
+          "max": 2
+        },
+        {
+          "ref": "tomato-sauce",
+          "d": 1,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "kids-6-nuggets",
+      "name": "6 Nuggets Kid's Pack",
+      "category": "kids",
+      "desc": "Six nuggets, small chips and water",
+      "serve": "1 pack",
+      "nutrition": {
+        "kj": 2154,
+        "p": 17.9,
+        "f": 24.4,
+        "c": 55.1
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 6,
+          "max": 12
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "kids-3-nuggets",
+      "name": "3 Nuggets Kid's Pack",
+      "category": "kids",
+      "desc": "Three nuggets, small chips and water",
+      "serve": "1 pack",
+      "nutrition": {
+        "kj": 1609,
+        "p": 10.5,
+        "f": 18.1,
+        "c": 44.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "nugget",
+          "d": 3,
+          "max": 9
+        },
+        {
+          "ref": "aioli-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "bbq-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "spicy-tub",
+          "d": 0,
+          "max": 4
+        },
+        {
+          "ref": "sweet-sour-tub",
+          "d": 0,
+          "max": 4
+        }
+      ]
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "category": "cafe",
+      "desc": "Espresso with full cream milk and froth",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1043,
+        "p": 12.4,
+        "f": 9.6,
+        "c": 28.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "flat-white",
+      "name": "Flat White",
+      "category": "cafe",
+      "desc": "Espresso with full cream milk",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 594,
+        "p": 6.8,
+        "f": 6.8,
+        "c": 9.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "category": "cafe",
+      "desc": "Espresso with full cream milk",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 534,
+        "p": 6.3,
+        "f": 6.3,
+        "c": 8.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "long-black",
+      "name": "Long Black",
+      "category": "cafe",
+      "desc": "Espresso with hot water",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 4,
+        "p": 0.4,
+        "f": 0.1,
+        "c": 0.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "category": "cafe",
+      "desc": "Espresso, chocolate and full cream milk",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 733,
+        "p": 6.6,
+        "f": 6.4,
+        "c": 23.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "dirty-chai-latte",
+      "name": "Dirty Chai Latte",
+      "category": "cafe",
+      "desc": "Chai latte with a shot of espresso",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2391,
+        "p": 18.1,
+        "f": 15.1,
+        "c": 88.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Chai Latte",
+      "category": "cafe",
+      "desc": "Spiced chai with full cream milk",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1496,
+        "p": 11.6,
+        "f": 11.5,
+        "c": 51.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "category": "cafe",
+      "desc": "Hot chocolate with full cream milk",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 861,
+        "p": 7,
+        "f": 7.3,
+        "c": 24
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "dilmah-tea",
+      "name": "Dilmah Tea",
+      "category": "cafe",
+      "desc": "Black tea, no milk",
+      "serve": "Regular",
+      "nutrition": {
+        "kj": 10,
+        "p": 0,
+        "f": 0,
+        "c": 0.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "piccolo",
+      "name": "Piccolo",
+      "category": "cafe",
+      "desc": "Ristretto with a little milk",
+      "serve": "1 cup",
+      "nutrition": {
+        "kj": 180,
+        "p": 2.3,
+        "f": 2.3,
+        "c": 3.2
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "macchiato",
+      "name": "Macchiato",
+      "category": "cafe",
+      "desc": "Espresso with a dash of milk",
+      "serve": "1 cup",
+      "nutrition": {
+        "kj": 60,
+        "p": 0.8,
+        "f": 0.7,
+        "c": 1
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "short-black",
+      "name": "Short Black",
+      "category": "cafe",
+      "desc": "Single espresso",
+      "serve": "1 shot",
+      "nutrition": {
+        "kj": 4,
+        "p": 0.2,
+        "f": 0,
+        "c": 0.3
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "miniccino",
+      "name": "Miniccino",
+      "category": "cafe",
+      "desc": "Small cappuccino",
+      "serve": "1 cup",
+      "nutrition": {
+        "kj": 300,
+        "p": 3.8,
+        "f": 3.7,
+        "c": 5.3
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "babyccino",
+      "name": "Babyccino",
+      "category": "cafe",
+      "desc": "Frothed full cream milk",
+      "serve": "1 cup",
+      "nutrition": {
+        "kj": 164,
+        "p": 2.1,
+        "f": 2.1,
+        "c": 3.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-long-black",
+      "name": "Iced Long Black",
+      "category": "cafe",
+      "desc": "Espresso over ice",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 361,
+        "p": 3.6,
+        "f": 0.7,
+        "c": 16.3
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-coffee",
+      "name": "Iced Coffee",
+      "category": "cafe",
+      "desc": "Espresso, milk and ice cream over ice",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 757,
+        "p": 7.3,
+        "f": 12.3,
+        "c": 10.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "caramel-fudge-iced-coffee",
+      "name": "Caramel Fudge Iced Coffee",
+      "category": "cafe",
+      "desc": "Iced coffee with caramel fudge sauce",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 1820,
+        "p": 9,
+        "f": 16.6,
+        "c": 61.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-chocolate",
+      "name": "Iced Chocolate",
+      "category": "cafe",
+      "desc": "Chocolate, milk and ice cream over ice",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 1440,
+        "p": 9.3,
+        "f": 13.4,
+        "c": 45.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-mocha",
+      "name": "Iced Mocha",
+      "category": "cafe",
+      "desc": "Espresso, chocolate, milk and ice cream over ice",
+      "serve": "Regular (HJ web figure, size not stated)",
+      "nutrition": {
+        "kj": 1330,
+        "p": 8,
+        "f": 11.9,
+        "c": 43.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-chai",
+      "name": "Iced Chai",
+      "category": "cafe",
+      "desc": "Spiced chai with milk over ice",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1526,
+        "p": 7.8,
+        "f": 12.4,
+        "c": 54.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "iced-dirty-chai",
+      "name": "Iced Dirty Chai",
+      "category": "cafe",
+      "desc": "Iced chai with a shot of espresso",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1540,
+        "p": 8,
+        "f": 12.4,
+        "c": 54.8
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "cinnaswirl",
+      "name": "Cinnaswirl",
+      "category": "cafe",
+      "desc": "Cinnamon pastry swirl",
+      "serve": "1 pastry",
+      "nutrition": {
+        "kj": 1016,
+        "p": 2.3,
+        "f": 13,
+        "c": 29.2
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coke",
+      "name": "Coke",
+      "category": "cold-drinks",
+      "desc": "Coca-Cola soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 782,
+        "p": 0,
+        "f": 0,
+        "c": 46.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "coke-no-sugar",
+      "name": "Coke No Sugar",
+      "category": "cold-drinks",
+      "desc": "Sugar free cola",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 7,
+        "p": 0.3,
+        "f": 0,
+        "c": 0.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "vanilla-coke",
+      "name": "Coke Vanilla",
+      "category": "cold-drinks",
+      "desc": "Vanilla cola",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 829,
+        "p": 0,
+        "f": 0,
+        "c": 48.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "sprite",
+      "name": "Sprite",
+      "category": "cold-drinks",
+      "desc": "Lemonade soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 764,
+        "p": 0,
+        "f": 0,
+        "c": 43.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "fanta-orange",
+      "name": "Fanta Orange",
+      "category": "cold-drinks",
+      "desc": "Orange soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 977,
+        "p": 0,
+        "f": 0,
+        "c": 58.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "fanta-raspberry",
+      "name": "Fanta Raspberry",
+      "category": "cold-drinks",
+      "desc": "Raspberry soft drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 968,
+        "p": 0,
+        "f": 0,
+        "c": 56.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "orange-fruit-drink",
+      "name": "Orange Fruit Drink",
+      "category": "cold-drinks",
+      "desc": "Orange fruit drink",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 886,
+        "p": 0,
+        "f": 0,
+        "c": 50.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "keri-apple-juice",
+      "name": "Keri Apple Juice",
+      "category": "cold-drinks",
+      "desc": "Apple juice",
+      "serve": "300 mL",
+      "nutrition": {
+        "kj": 597,
+        "p": 0.9,
+        "f": 0,
+        "c": 33.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "mount-franklin",
+      "name": "Mount Franklin Spring Water",
+      "category": "cold-drinks",
+      "desc": "Still spring water",
+      "serve": "600 mL",
+      "nutrition": {
+        "kj": 0,
+        "p": 0,
+        "f": 0,
+        "c": 0
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "shake-chocolate",
+      "name": "Chocolate Shake",
+      "category": "cold-drinks",
+      "desc": "Thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1575,
+        "p": 10.8,
+        "f": 8.5,
+        "c": 63.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "shake-strawberry",
+      "name": "Strawberry Shake",
+      "category": "cold-drinks",
+      "desc": "Thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1499,
+        "p": 10.8,
+        "f": 8.5,
+        "c": 60.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "shake-vanilla",
+      "name": "Vanilla Shake",
+      "category": "cold-drinks",
+      "desc": "Thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1415,
+        "p": 12.4,
+        "f": 9.8,
+        "c": 50
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "shake-caramel",
+      "name": "Caramel Shake",
+      "category": "cold-drinks",
+      "desc": "Thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1532,
+        "p": 10.8,
+        "f": 8.5,
+        "c": 62
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "shake-biscoff",
+      "name": "Biscoff Shake",
+      "category": "cold-drinks",
+      "desc": "Biscoff thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2502,
+        "p": 14,
+        "f": 23.2,
+        "c": 83.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "shake-pistachio",
+      "name": "Pistachio Papi Shake",
+      "category": "cold-drinks",
+      "desc": "Pistachio thick shake",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 2352,
+        "p": 14.2,
+        "f": 25.7,
+        "c": 71.4
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "dirty-cola",
+      "name": "Dirty Cola",
+      "category": "jackd-up",
+      "desc": "Jack'd Up cola with creamer",
+      "serve": "1 drink",
+      "nutrition": {
+        "kj": 910,
+        "p": 0.3,
+        "f": 4.7,
+        "c": 43.1
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "blue-lagoon",
+      "name": "Blue Lagoon",
+      "category": "jackd-up",
+      "desc": "Jack'd Up blue soda",
+      "serve": "1 drink",
+      "nutrition": {
+        "kj": 1017,
+        "p": 0.1,
+        "f": 0,
+        "c": 58.7
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "blue-lagoon-creamer",
+      "name": "Blue Lagoon with Creamer",
+      "category": "jackd-up",
+      "desc": "Jack'd Up blue soda with creamer",
+      "serve": "1 drink",
+      "nutrition": {
+        "kj": 1206,
+        "p": 0.3,
+        "f": 4.7,
+        "c": 59.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "strawberry-dream",
+      "name": "Strawberry Dream",
+      "category": "jackd-up",
+      "desc": "Jack'd Up strawberry soda",
+      "serve": "1 drink",
+      "nutrition": {
+        "kj": 933,
+        "p": 0,
+        "f": 0,
+        "c": 53.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "strawberry-dream-creamer",
+      "name": "Strawberry Dream with Creamer",
+      "category": "jackd-up",
+      "desc": "Jack'd Up strawberry soda with creamer",
+      "serve": "1 drink",
+      "nutrition": {
+        "kj": 1122,
+        "p": 0.3,
+        "f": 4.7,
+        "c": 54.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "frozen-coke",
+      "name": "Frozen Coke",
+      "category": "frozen",
+      "desc": "Frozen Coca-Cola",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 336,
+        "p": 0,
+        "f": 0,
+        "c": 19.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-grape",
+      "name": "Frozen Fanta Grape",
+      "category": "frozen",
+      "desc": "Frozen grape Fanta",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 338,
+        "p": 0,
+        "f": 0,
+        "c": 19.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-strawberry",
+      "name": "Frozen Fanta Strawberry",
+      "category": "frozen",
+      "desc": "Frozen strawberry Fanta",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 338,
+        "p": 0,
+        "f": 0,
+        "c": 16.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-raspberry",
+      "name": "Frozen Fanta Raspberry",
+      "category": "frozen",
+      "desc": "Frozen raspberry Fanta",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 338,
+        "p": 0,
+        "f": 0,
+        "c": 19.6
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-keri-orange-mango",
+      "name": "Frozen Keri Orange & Mango",
+      "category": "frozen",
+      "desc": "Frozen orange and mango",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 458,
+        "p": 0,
+        "f": 0,
+        "c": 26.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-coke-spider",
+      "name": "Frozen Coke Spider",
+      "category": "frozen",
+      "desc": "Frozen Coke with soft serve",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 932,
+        "p": 4.2,
+        "f": 5.7,
+        "c": 38.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-grape-spider",
+      "name": "Frozen Fanta Grape Spider",
+      "category": "frozen",
+      "desc": "Frozen grape Fanta with soft serve",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 935,
+        "p": 4.2,
+        "f": 5.7,
+        "c": 38.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-strawberry-spider",
+      "name": "Frozen Fanta Strawberry Spider",
+      "category": "frozen",
+      "desc": "Frozen strawberry Fanta with soft serve",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 935,
+        "p": 4.2,
+        "f": 5.7,
+        "c": 35.3
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-fanta-raspberry-spider",
+      "name": "Frozen Fanta Raspberry Spider",
+      "category": "frozen",
+      "desc": "Frozen raspberry Fanta with soft serve",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 935,
+        "p": 4.2,
+        "f": 5.7,
+        "c": 38.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "frozen-keri-spider",
+      "name": "Frozen Keri Orange & Mango Spider",
+      "category": "frozen",
+      "desc": "Frozen orange and mango with soft serve",
+      "serve": "Medium",
+      "nutrition": {
+        "kj": 1032,
+        "p": 4.2,
+        "f": 5.7,
+        "c": 43.9
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "bursties",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "pistachio-storm",
+      "name": "Pistachio Papi Storm",
+      "category": "desserts",
+      "desc": "Soft serve blended with pistachio",
+      "serve": "1 storm",
+      "nutrition": {
+        "kj": 2874,
+        "p": 15.8,
+        "f": 33.9,
+        "c": 82.5
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "biscoff-storm",
+      "name": "Storm Biscoff",
+      "category": "desserts",
+      "desc": "Soft serve with Biscoff crumb and sauce",
+      "serve": "1 storm",
+      "nutrition": {
+        "kj": 2606,
+        "p": 13.8,
+        "f": 27.7,
+        "c": 79.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "biscoff-crumb",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "biscoff-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "oreo-storm",
+      "name": "Storm OREO",
+      "category": "desserts",
+      "desc": "Soft serve with OREO pieces",
+      "serve": "1 storm",
+      "nutrition": {
+        "kj": 1758,
+        "p": 12.2,
+        "f": 16.8,
+        "c": 54.8
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "choc-sauce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "caramel-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "flake-storm",
+      "name": "Storm Cadbury Flake",
+      "category": "desserts",
+      "desc": "Soft serve with Cadbury Flake",
+      "serve": "1 storm",
+      "nutrition": {
+        "kj": 2166,
+        "p": 13.6,
+        "f": 22.4,
+        "c": 65
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "choc-sauce",
+          "d": 0,
+          "max": 2
+        },
+        {
+          "ref": "caramel-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sundae-chocolate",
+      "name": "Chocolate Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with chocolate topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1574,
+        "p": 9.6,
+        "f": 13.4,
+        "c": 53.7
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "choc-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sundae-caramel",
+      "name": "Caramel Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with caramel topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1632,
+        "p": 9.5,
+        "f": 14,
+        "c": 56.2
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "caramel-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sundae-strawberry",
+      "name": "Strawberry Sundae",
+      "category": "desserts",
+      "desc": "Soft serve with strawberry topping",
+      "serve": "Small",
+      "nutrition": {
+        "kj": 1445,
+        "p": 9,
+        "f": 12.1,
+        "c": 50.5
+      },
+      "confidence": "official",
+      "comps": [
+        {
+          "ref": "strawberry-sauce",
+          "d": 0,
+          "max": 2
+        }
+      ]
+    },
+    {
+      "id": "sticky-date-pudding",
+      "name": "Sticky Date Pudding",
+      "category": "desserts",
+      "desc": "Warm sticky date pudding (without ice cream)",
+      "serve": "1 pudding",
+      "nutrition": {
+        "kj": 960,
+        "p": 2.2,
+        "f": 11.6,
+        "c": 28.8
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "soft-serve-cone",
+      "name": "Soft Serve Cone",
+      "category": "desserts",
+      "desc": "Vanilla soft serve in a cone",
+      "serve": "1 cone",
+      "nutrition": {
+        "kj": 1281,
+        "p": 8.4,
+        "f": 9.1,
+        "c": 46.9
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "drumstick-mini",
+      "name": "Drumstick Mini Vanilla",
+      "category": "desserts",
+      "desc": "Mini vanilla Drumstick",
+      "serve": "1 cone",
+      "nutrition": {
+        "kj": 603,
+        "p": 1.6,
+        "f": 6,
+        "c": 20.6
+      },
+      "confidence": "official"
+    },
+    {
+      "id": "kk-original-glazed",
+      "name": "Krispy Kreme Original Glazed",
+      "category": "krispy-kreme",
+      "desc": "Original glazed doughnut",
+      "serve": "1 doughnut",
+      "nutrition": {
+        "kj": 800,
+        "p": 2.6,
+        "f": 10.8,
+        "c": 22.5
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "kk-choc-iced",
+      "name": "Krispy Kreme Choc Iced Doughnut",
+      "category": "krispy-kreme",
+      "desc": "Glazed doughnut with chocolate icing",
+      "serve": "1 doughnut",
+      "nutrition": {
+        "kj": 1000,
+        "p": 3,
+        "f": 12.5,
+        "c": 29
+      },
+      "confidence": "estimate"
+    },
+    {
+      "id": "kk-strawberry-sprinkle",
+      "name": "Krispy Kreme Strawberry Sprinkle",
+      "category": "krispy-kreme",
+      "desc": "Strawberry iced doughnut with sprinkles",
+      "serve": "1 doughnut",
+      "nutrition": {
+        "kj": 1040,
+        "p": 2.8,
+        "f": 12,
+        "c": 32
+      },
+      "confidence": "estimate"
+    }
+  ]
+}
